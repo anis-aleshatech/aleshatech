@@ -62,3 +62,7 @@ The dependencies can be found in /src/ after running "gulp copy-assets" terminal
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: #EC421E !important;
 }
+
+.textarea-form{
+    height: 100px !important;
+}
