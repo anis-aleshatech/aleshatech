@@ -19,9 +19,8 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<?php if ( is_front_page() && is_home() ) : ?>
-	<?php get_template_part( 'global-templates/hero' ); ?>
-<?php endif; ?>
+<?php get_template_part( 'global-templates/hero' ); ?>
+
 
 <div class="wrapper" id="index-wrapper">
 
@@ -32,7 +31,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<!-- Do the left sidebar check and opens the primary div -->
 			<?php get_template_part( 'global-templates/left-sidebar-check' ); ?>
 
-			<main class="site-main" id="main">
+			<main class="site-main" id="main"> 
 
 				<?php
 				if ( have_posts() ) {
@@ -55,7 +54,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 			</main><!-- #main -->
 
 			<!-- The pagination component -->
-			<?php understrap_pagination(); ?>
+			<div class="my-5 pb-5">
+					<?php understrap_pagination(); ?>
+			</div>
 
 			<!-- Do the right sidebar check -->
 			<?php get_template_part( 'global-templates/right-sidebar-check' ); ?>

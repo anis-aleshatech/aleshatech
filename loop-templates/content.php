@@ -10,47 +10,51 @@ defined( 'ABSPATH' ) || exit;
 ?>
 
 <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+	<div class="card p-2">
+		<div class="card-header rounded" >
+		<a  href="<?php echo esc_url( get_permalink() )?>"><?php echo get_the_post_thumbnail( $post->ID, 'full', array('class'=>'img-fluid') ); ?></a>
+		</div>
+		<div class="card-body">
+			
+			<header class="entry-header my-2">
 
-	<header class="entry-header">
+				<?php
+				the_title(
+					sprintf( '<h2 class="entry-title card-title text-dark"><a href="%s" rel="bookmark" class="text-muted">', esc_url( get_permalink() ) ),
+					'</a></h2>'
+				);
+				?>
 
-		<?php
-		the_title(
-			sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ),
-			'</a></h2>'
-		);
-		?>
+				<?php if ( 'post' === get_post_type() ) : ?>
 
-		<?php if ( 'post' === get_post_type() ) : ?>
+					<div class="entry-meta my-3">
+						<?php understrap_posted_on(); ?>
+					</div><!-- .entry-meta -->
 
-			<div class="entry-meta">
-				<?php understrap_posted_on(); ?>
-			</div><!-- .entry-meta -->
+				<?php endif; ?>
 
-		<?php endif; ?>
+			</header><!-- .entry-header -->
 
-	</header><!-- .entry-header -->
+				<div class="entry-content">
 
-	<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
+					<?php the_excerpt(); ?>
 
-	<div class="entry-content">
+					<?php
+					wp_link_pages(
+						array(
+							'before' => '<div class="page-links">' . __( 'Pages:', 'understrap' ),
+							'after'  => '</div>',
+						)
+					);
+					?>
 
-		<?php the_excerpt(); ?>
+				</div><!-- .entry-content -->
 
-		<?php
-		wp_link_pages(
-			array(
-				'before' => '<div class="page-links">' . __( 'Pages:', 'understrap' ),
-				'after'  => '</div>',
-			)
-		);
-		?>
+		</div>
+		
+	</div>
+	
 
-	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
-
-		<?php understrap_entry_footer(); ?>
-
-	</footer><!-- .entry-footer -->
 
 </article><!-- #post-## -->

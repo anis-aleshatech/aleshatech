@@ -66,3 +66,126 @@ The dependencies can be found in /src/ after running "gulp copy-assets" terminal
 .textarea-form{
     height: 100px !important;
 }
+
+
+
+
+/*---------------
+menu
+-------------*/
+nav.navbar ul > li ul.sub_menu {
+	position: absolute;
+	min-width: 200px;
+	padding: 15px 15px;
+	background: #FFFFFF;
+	box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.1);
+	-webkit-transform: perspective(600px) rotateX(-90deg);
+	transform: perspective(600px) rotateX(-90deg);
+	-webkit-transform-origin: 0 0 0;
+	transform-origin: 0 0 0;
+	left: 0;
+	right: auto;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	z-index: 99;
+	top: 89%;
+	text-align: left;
+}
+nav.navbar ul > li ul.sub_menu li a {
+	font-weight: 500;
+	display: block;
+	line-height: 30px;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+nav.navbar ul > li:hover ul.sub_menu {
+	opacity: 1;
+	visibility: visible;
+	transform: perspective(600px) rotateX(0deg);
+}
+nav.navbar ul > li {
+	display: block;
+	position: relative;
+}
+nav.navbar ul > li:hover > a {
+	color: #FFD54C;
+}
+nav.navbar ul > li ul.sub_menu li a:hover {
+	color: #FFD54C;
+}
+nav.navbar ul > li > ul.sub_menu > li > a {
+	font-weight: 500;
+	display: block;
+	line-height: 30px;
+	text-transform: uppercase;
+	font-family: "Lato", sans-serif;
+	font-size: 13px;
+	color: #333333 !important;
+}
+nav.navbar ul > li > ul.sub_menu > li:not(:last-child) {
+	border-bottom: 1px solid #DEE1E6;
+}
+.menu-item-has-children > a::after {
+	content: "\f107";
+	font-family: FontAwesome;
+	margin-left: 6px;
+}
+@media only screen and (max-width:720px) {
+	nav.navbar ul > li ul.sub_menu {
+		left: 20%;
+		background: rgba(255, 255, 255, 1.0);
+	}
+}
+@media (max-width: 720px) {
+	.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+		padding-left: 10%;
+		padding-right: 0;
+		padding-top: .9rem;
+		padding-bottom: .9rem;
+		color: #000;
+		background-color: #fff;
+	}
+	.ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
+		color: blue;
+	}
+	.ftco-navbar-light.scrolled.awake {
+		margin-top: 0px;
+		-webkit-transition: .1s all ease-out;
+		-o-transition: .1s all ease-out;
+		transition: .1s all ease-out;
+	}
+}
+.ftco-navbar-light.scrolled .nav-link {
+	color: #000 !important;
+}
+
+
+/***
+	Hero Section
+*/
+
+.hero-section{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	position: relative;
+	border: 3px solid green;
+}
+.hero-section .row {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/**
+User Avater
+**/
+
+.user-avatar img{
+	border-radius:50%;
+}

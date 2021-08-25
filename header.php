@@ -63,7 +63,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				<!-- The WordPress Menu goes here -->
 				<?php
-				wp_nav_menu(
+					$eduhub_main_menu = wp_nav_menu(
 					array(
 						'theme_location'  => 'primary',
 						'container_class' => 'collapse navbar-collapse',
@@ -73,8 +73,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 						'menu_id'         => 'main-menu',
 						'depth'           => 2,
 						'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
+						'echo' => false ,
 					)
-				);
+					);
+					$eduhub_main_menu = str_replace("sub-menu", "sub-menu sub_menu pages",  $eduhub_main_menu);
+					echo $eduhub_main_menu;
 				?>
 			<?php if ( 'container' === $container ) : ?>
 			</div><!-- .container -->

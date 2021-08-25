@@ -189,23 +189,14 @@ if ( ! class_exists( 'Understrap_WP_Bootstrap_Navwalker' ) ) {
 			}
 
 			// If item has_children add atts to <a>.
-			if ( isset( $args->has_children ) && $args->has_children && 0 === $depth && 1 !== $args->depth ) {
-				$atts['href']          = '#';
-				$atts['data-toggle']   = 'dropdown';
-				$atts['aria-haspopup'] = 'true';
-				$atts['aria-expanded'] = 'false';
-				$atts['class']         = 'dropdown-toggle nav-link';
-				$atts['id']            = 'menu-item-dropdown-' . $item->ID;
-			} else {
-				$atts['href'] = ! empty( $item->url ) ? $item->url : '#';
-				// Items in dropdowns use .dropdown-item instead of .nav-link.
-				if ( $depth > 0 ) {
-					$atts['class'] = 'dropdown-item';
+			if ( $args->has_children && $depth === 0 ) {
+				$atts['href'] = ! empty( $item->url ) ? $item->url : '';
+				//$atts['data-toggle']   = 'dropdown';
+				$atts['class']           = 'nav-link dropdown-toggle';
 				} else {
-					$atts['class'] = 'nav-link';
+				$atts['href'] = ! empty( $item->url ) ? $item->url : '';
+				$atts['class']          = 'nav-link';
 				}
-			}
-
 			$atts['aria-current'] = $item->current ? 'page' : '';
 
 			// update atts of this item based on any custom linkmod classes.

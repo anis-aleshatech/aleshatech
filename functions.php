@@ -59,3 +59,37 @@ function get_option_value($key, $default=''){
 		return $default;
 	}
 }
+
+
+
+function atl_page_template_banner() {
+    if ( is_page() ) {
+        if ( current_theme_supports( "custom-header" ) ) {
+            ?>
+<style>
+	.hero-wrap-2 {
+		background-image: url(<?php echo header_image();
+		?>);
+		background-size: cover;
+	}
+</style>
+<?php
+        }
+    }
+}
+add_action( "wp_head", "atl_page_template_banner", 11 );
+
+// Add Menu Class li Tag
+function tanem_menu_item_class($classes, $item)
+{
+    $classes[] = 'nav-item';
+    return $classes;
+}
+add_filter('nav_menu_css_class', 'tanem_menu_item_class', 10, 2);
+// Add Menu Class a Tag
+function add_link_atts($atts)
+{
+    $atts['class'] = "nav-link";
+    return $atts;
+}
+add_filter('nav_menu_link_attributes', 'add_link_atts', 100, 1);

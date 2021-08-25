@@ -77,6 +77,18 @@ if ( ! function_exists( 'understrap_setup' ) ) {
 		 */
 		add_theme_support( 'customize-selective-refresh-widgets' );
 
+		$atl_custom_header_details = array(
+			'header-text'        => true,
+			'default-text-color' => '#222',
+			'width'              => 1200,
+			'height'             => 600,
+			'flex-height'        => true,
+			'flex-width'         => true,
+		);
+		add_theme_support( "custom-header", $atl_custom_header_details );
+
+
+
 		/*
 		 * Enable support for Post Formats.
 		 * See http://codex.wordpress.org/Post_Formats
@@ -112,6 +124,7 @@ if ( ! function_exists( 'understrap_setup' ) ) {
 
 		// Check and setup theme default settings.
 		understrap_setup_theme_default_settings();
+		add_image_size( "atl-blog-image", 1024, 'auto',array("center","center"), true); 
 
 	}
 }
@@ -147,7 +160,7 @@ if ( ! function_exists( 'understrap_all_excerpts_get_more_link' ) ) {
 	 */
 	function understrap_all_excerpts_get_more_link( $post_excerpt ) {
 		if ( ! is_admin() ) {
-			$post_excerpt = $post_excerpt . ' [...]<p><a class="btn btn-secondary understrap-read-more-link" href="' . esc_url( get_permalink( get_the_ID() ) ) . '">' . __(
+			$post_excerpt = $post_excerpt . ' [...]<p><a class="btn btn-danger understrap-read-more-link" style="background-color:#EC421E !important;" href="' . esc_url( get_permalink( get_the_ID() ) ) . '">' . __(
 				'Read More...',
 				'understrap'
 			) . '</a></p>';

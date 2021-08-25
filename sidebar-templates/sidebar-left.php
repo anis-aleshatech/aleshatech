@@ -21,6 +21,9 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 <?php else : ?>
 	<div class="col-md-4 widget-area" id="left-sidebar" role="complementary">
 <?php endif; ?>
+<div class="px-4">
+
 <?php dynamic_sidebar( 'left-sidebar' ); ?>
+</div>
 
 </div><!-- #left-sidebar -->

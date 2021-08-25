@@ -23,7 +23,9 @@ defined( 'ABSPATH' ) || exit;
 
 	</header><!-- .entry-header -->
 
+	<div class="my-3">
 	<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
+	</div>
 
 	<div class="entry-content">
 

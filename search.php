@@ -13,8 +13,8 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 
 ?>
-
-<div class="wrapper" id="search-wrapper">
+<?php get_template_part( 'global-templates/hero' ); ?>
+<div class="wrapper my-5" id="search-wrapper">
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
 

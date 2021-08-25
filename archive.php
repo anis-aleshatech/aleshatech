@@ -14,7 +14,7 @@ get_header();
 
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
-
+<?php get_template_part( 'global-templates/hero' ); ?>
 <div class="wrapper" id="archive-wrapper">
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
@@ -53,10 +53,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 				?>
 
 			</main><!-- #main -->
-
+			<div class="my-5 pb-5">
+					<?php understrap_pagination(); ?>
+			</div>
 			<?php
 			// Display the pagination component.
-			understrap_pagination();
+			
 			// Do the right sidebar check.
 			get_template_part( 'global-templates/right-sidebar-check' );
 			?>
