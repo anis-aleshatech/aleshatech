@@ -189,3 +189,13 @@ User Avater
 .user-avatar img{
 	border-radius:50%;
 }
+
+/**
+	Menu Under Margin
+**/
+
+#wrapper-navbar{
+	margin-bottom: 40px !important;
+}
+
+
