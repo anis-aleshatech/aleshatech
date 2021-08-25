@@ -67,6 +67,10 @@ function aleshatech_register_required_plugins() {
 			'force_activation'   => true, 
 			'required'     => true,
 		),
+		array(
+			'name'        => 'Contact Form',
+			'slug'        => 'contact-form-7',
+		),
 
 	);
 
