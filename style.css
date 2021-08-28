@@ -207,3 +207,38 @@ User Avater
  
     margin-bottom: 5px !important;
 }
+
+/ These changes are made directly from wordpress /
+h2.card-title a{
+	color:#393939 !important;
+	text-decoration: none !important;
+	font-size: 3.438rem !important;
+}
+#main .card p{
+	color:#6A6A6A !important;
+
+}
+#right-sidebar h2,h3{
+	color:#6A6A6A;
+	font-weight: 600 !important;
+	font-size: 21px !important;
+}
+#right-sidebar ul li{
+	list-style-type: none;
+	line-height: 2.5rem;
+}
+#right-sidebar ul li a{
+	text-decoration: none;
+	color:#6A6A6A;
+	
+}
+
+ 
+ @media (max-width: 992px) {
+	h2.card-title a{
+		font-size: 2rem !important;
+	}
+	#right-sidebar{
+		margin-bottom:100px;
+	}
+}

@@ -17,7 +17,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/5.8" created="2021-08-28 06:48" -->
+	<!-- generator="WordPress/5.8" created="2021-08-28 10:15" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -30,7 +30,7 @@
 	<title>Alesha Tech</title>
 	<link>http://localhost/alesha-tech</link>
 	<description>Just another WordPress site</description>
-	<pubDate>Sat, 28 Aug 2021 06:48:36 +0000</pubDate>
+	<pubDate>Sat, 28 Aug 2021 10:15:54 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://localhost/alesha-tech</wp:base_site_url>
@@ -82,7 +82,9 @@
 		<wp:tag_slug><![CDATA[libing]]></wp:tag_slug>
 		<wp:tag_name><![CDATA[libing]]></wp:tag_name>
 	</wp:tag>
-				<wp:term><wp:term_id>2</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[primary-menu]]></wp:term_slug><wp:term_name><![CDATA[Primary Menu]]></wp:term_name>
+				<wp:term><wp:term_id>12</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[footer-menu]]></wp:term_slug><wp:term_name><![CDATA[Footer Menu]]></wp:term_name>
+</wp:term>
+	<wp:term><wp:term_id>11</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[menu-1]]></wp:term_slug><wp:term_name><![CDATA[Menu 1]]></wp:term_name>
 </wp:term>
 
 	<generator>https://wordpress.org/?v=5.8</generator>
@@ -1524,96 +1526,6 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[Default Kit]]></title>
-		<link>http://localhost/alesha-tech/?elementor_library=default-kit</link>
-		<pubDate>Tue, 24 Aug 2021 05:30:03 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/alesha-tech/?p=6</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>6</wp:post_id>
-		<wp:post_date><![CDATA[2021-08-24 05:30:03]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2021-08-24 05:30:03]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-08-24 05:30:03]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-08-24 05:30:03]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[default-kit]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[elementor_library]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_elementor_edit_mode]]></wp:meta_key>
-		<wp:meta_value><![CDATA[builder]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_elementor_template_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[kit]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Default Kit]]></title>
-		<link>http://localhost/alesha-tech/?elementor_library=default-kit</link>
-		<pubDate>Tue, 24 Aug 2021 05:30:03 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/alesha-tech/?p=7</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>7</wp:post_id>
-		<wp:post_date><![CDATA[2021-08-24 05:30:03]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2021-08-24 05:30:03]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-08-24 05:30:03]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-08-24 05:30:03]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[default-kit]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[elementor_library]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_elementor_edit_mode]]></wp:meta_key>
-		<wp:meta_value><![CDATA[builder]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_elementor_template_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[kit]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[aleshatech]]></title>
-		<link>http://localhost/alesha-tech/aleshatech/</link>
-		<pubDate>Tue, 24 Aug 2021 06:27:34 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/alesha-tech/aleshatech/</guid>
-		<description></description>
-		<content:encoded><![CDATA[#wpadminbar { display:none !important;}
-
-]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>36</wp:post_id>
-		<wp:post_date><![CDATA[2021-08-24 06:27:34]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2021-08-24 06:27:34]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-08-25 07:44:57]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-08-25 07:44:57]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[aleshatech]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[custom_css]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
 		<title><![CDATA[bc0707a7-d786-305a-aac0-6bbbf734e567]]></title>
 		<link>http://localhost/alesha-tech/bc0707a7-d786-305a-aac0-6bbbf734e567/</link>
 		<pubDate>Wed, 25 Aug 2021 03:51:54 +0000</pubDate>
@@ -2291,6 +2203,1073 @@
 		</wp:postmeta>
 							</item>
 					<item>
+		<title><![CDATA[One Click Demo Import - log_file_2021-08-28__07-34-31]]></title>
+		<link>http://localhost/alesha-tech/one-click-demo-import-log_file_2021-08-28__07-34-31/</link>
+		<pubDate>Sat, 28 Aug 2021 07:34:31 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/alesha-tech/wp-content/uploads/2021/08/log_file_2021-08-28__07-34-31.txt</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>422</wp:post_id>
+		<wp:post_date><![CDATA[2021-08-28 07:34:31]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2021-08-28 07:34:31]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-08-28 07:34:31]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-08-28 07:34:31]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[one-click-demo-import-log_file_2021-08-28__07-34-31]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://localhost/alesha-tech/wp-content/uploads/2021/08/log_file_2021-08-28__07-34-31.txt]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2021/08/log_file_2021-08-28__07-34-31.txt]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[One Click Demo Import - log_file_2021-08-28__07-35-02]]></title>
+		<link>http://localhost/alesha-tech/one-click-demo-import-log_file_2021-08-28__07-35-02/</link>
+		<pubDate>Sat, 28 Aug 2021 07:35:02 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/alesha-tech/wp-content/uploads/2021/08/log_file_2021-08-28__07-35-02.txt</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>423</wp:post_id>
+		<wp:post_date><![CDATA[2021-08-28 07:35:02]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2021-08-28 07:35:02]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-08-28 07:35:02]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-08-28 07:35:02]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[one-click-demo-import-log_file_2021-08-28__07-35-02]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://localhost/alesha-tech/wp-content/uploads/2021/08/log_file_2021-08-28__07-35-02.txt]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2021/08/log_file_2021-08-28__07-35-02.txt]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[One Click Demo Import - log_file_2021-08-28__07-35-34]]></title>
+		<link>http://localhost/alesha-tech/one-click-demo-import-log_file_2021-08-28__07-35-34/</link>
+		<pubDate>Sat, 28 Aug 2021 07:35:34 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/alesha-tech/wp-content/uploads/2021/08/log_file_2021-08-28__07-35-34.txt</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>429</wp:post_id>
+		<wp:post_date><![CDATA[2021-08-28 07:35:34]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2021-08-28 07:35:34]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-08-28 07:35:34]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-08-28 07:35:34]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[one-click-demo-import-log_file_2021-08-28__07-35-34]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://localhost/alesha-tech/wp-content/uploads/2021/08/log_file_2021-08-28__07-35-34.txt]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2021/08/log_file_2021-08-28__07-35-34.txt]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Default Kit]]></title>
+		<link>http://localhost/alesha-tech/?elementor_library=default-kit</link>
+		<pubDate>Tue, 24 Aug 2021 05:30:03 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/alesha-tech/?p=6</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>6</wp:post_id>
+		<wp:post_date><![CDATA[2021-08-24 05:30:03]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2021-08-24 05:30:03]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-08-24 05:30:03]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-08-24 05:30:03]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[default-kit]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[elementor_library]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_elementor_edit_mode]]></wp:meta_key>
+		<wp:meta_value><![CDATA[builder]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_elementor_template_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[kit]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Default Kit]]></title>
+		<link>http://localhost/alesha-tech/?elementor_library=default-kit</link>
+		<pubDate>Tue, 24 Aug 2021 05:30:03 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/alesha-tech/?p=7</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>7</wp:post_id>
+		<wp:post_date><![CDATA[2021-08-24 05:30:03]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2021-08-24 05:30:03]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-08-24 05:30:03]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-08-24 05:30:03]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[default-kit]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[elementor_library]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_elementor_edit_mode]]></wp:meta_key>
+		<wp:meta_value><![CDATA[builder]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_elementor_template_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[kit]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Home]]></title>
+		<link>http://localhost/alesha-tech/?p=20</link>
+		<pubDate></pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/alesha-tech/?p=20</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>20</wp:post_id>
+		<wp:post_date><![CDATA[2021-08-24 05:34:15]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-08-24 05:34:15]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[]]></wp:post_name>
+		<wp:status><![CDATA[draft]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[20]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[http://localhost/alesha-tech/]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_orphaned]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1629783256]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[aleshatech]]></title>
+		<link>http://localhost/alesha-tech/aleshatech/</link>
+		<pubDate>Tue, 24 Aug 2021 06:27:34 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/alesha-tech/aleshatech/</guid>
+		<description></description>
+		<content:encoded><![CDATA[#wpadminbar { display:none !important;}
+
+]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>36</wp:post_id>
+		<wp:post_date><![CDATA[2021-08-24 06:27:34]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2021-08-24 06:27:34]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-08-25 07:44:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-08-25 07:44:57]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[aleshatech]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[custom_css]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://localhost/alesha-tech/?p=424</link>
+		<pubDate></pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/alesha-tech/?p=424</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>424</wp:post_id>
+		<wp:post_date><![CDATA[2021-08-28 07:35:22]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-08-28 07:35:22]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[]]></wp:post_name>
+		<wp:status><![CDATA[draft]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[10]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_orphaned]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1630136123]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://localhost/alesha-tech/?p=425</link>
+		<pubDate></pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/alesha-tech/?p=425</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>425</wp:post_id>
+		<wp:post_date><![CDATA[2021-08-28 07:35:23]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-08-28 07:35:23]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[]]></wp:post_name>
+		<wp:status><![CDATA[draft]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[12]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_orphaned]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1630136123]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://localhost/alesha-tech/?p=426</link>
+		<pubDate></pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/alesha-tech/?p=426</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>426</wp:post_id>
+		<wp:post_date><![CDATA[2021-08-28 07:35:23]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-08-28 07:35:23]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[]]></wp:post_name>
+		<wp:status><![CDATA[draft]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[14]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_orphaned]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1630136123]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://localhost/alesha-tech/?p=427</link>
+		<pubDate></pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/alesha-tech/?p=427</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>427</wp:post_id>
+		<wp:post_date><![CDATA[2021-08-28 07:35:23]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-08-28 07:35:23]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[]]></wp:post_name>
+		<wp:status><![CDATA[draft]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[16]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_orphaned]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1630136124]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://localhost/alesha-tech/?p=428</link>
+		<pubDate></pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/alesha-tech/?p=428</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>428</wp:post_id>
+		<wp:post_date><![CDATA[2021-08-28 07:35:24]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-08-28 07:35:24]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[]]></wp:post_name>
+		<wp:status><![CDATA[draft]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[18]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_orphaned]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1630136124]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[One Click Demo Import - log_file_2021-08-28__07-37-41]]></title>
+		<link>http://localhost/alesha-tech/one-click-demo-import-log_file_2021-08-28__07-37-41/</link>
+		<pubDate>Sat, 28 Aug 2021 07:37:41 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/alesha-tech/wp-content/uploads/2021/08/log_file_2021-08-28__07-37-41.txt</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>430</wp:post_id>
+		<wp:post_date><![CDATA[2021-08-28 07:37:41]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2021-08-28 07:37:41]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-08-28 07:37:41]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-08-28 07:37:41]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[one-click-demo-import-log_file_2021-08-28__07-37-41]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://localhost/alesha-tech/wp-content/uploads/2021/08/log_file_2021-08-28__07-37-41.txt]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2021/08/log_file_2021-08-28__07-37-41.txt]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[One Click Demo Import - log_file_2021-08-28__07-38-51]]></title>
+		<link>http://localhost/alesha-tech/one-click-demo-import-log_file_2021-08-28__07-38-51/</link>
+		<pubDate>Sat, 28 Aug 2021 07:38:51 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/alesha-tech/wp-content/uploads/2021/08/log_file_2021-08-28__07-38-51.txt</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>431</wp:post_id>
+		<wp:post_date><![CDATA[2021-08-28 07:38:51]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2021-08-28 07:38:51]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-08-28 07:38:51]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-08-28 07:38:51]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[one-click-demo-import-log_file_2021-08-28__07-38-51]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://localhost/alesha-tech/wp-content/uploads/2021/08/log_file_2021-08-28__07-38-51.txt]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2021/08/log_file_2021-08-28__07-38-51.txt]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[One Click Demo Import - log_file_2021-08-28__07-40-08]]></title>
+		<link>http://localhost/alesha-tech/one-click-demo-import-log_file_2021-08-28__07-40-08/</link>
+		<pubDate>Sat, 28 Aug 2021 07:40:08 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/alesha-tech/wp-content/uploads/2021/08/log_file_2021-08-28__07-40-08.txt</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>432</wp:post_id>
+		<wp:post_date><![CDATA[2021-08-28 07:40:08]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2021-08-28 07:40:08]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-08-28 07:40:08]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-08-28 07:40:08]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[one-click-demo-import-log_file_2021-08-28__07-40-08]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://localhost/alesha-tech/wp-content/uploads/2021/08/log_file_2021-08-28__07-40-08.txt]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2021/08/log_file_2021-08-28__07-40-08.txt]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[One Click Demo Import - log_file_2021-08-28__08-38-41]]></title>
+		<link>http://localhost/alesha-tech/one-click-demo-import-log_file_2021-08-28__08-38-41/</link>
+		<pubDate>Sat, 28 Aug 2021 08:38:41 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/alesha-tech/wp-content/uploads/2021/08/log_file_2021-08-28__08-38-41.txt</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>433</wp:post_id>
+		<wp:post_date><![CDATA[2021-08-28 08:38:41]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2021-08-28 08:38:41]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-08-28 08:38:41]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-08-28 08:38:41]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[one-click-demo-import-log_file_2021-08-28__08-38-41]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://localhost/alesha-tech/wp-content/uploads/2021/08/log_file_2021-08-28__08-38-41.txt]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2021/08/log_file_2021-08-28__08-38-41.txt]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://localhost/alesha-tech/434/</link>
+		<pubDate>Sat, 28 Aug 2021 08:39:10 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/alesha-tech/?p=434</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>434</wp:post_id>
+		<wp:post_date><![CDATA[2021-08-28 08:39:15]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2021-08-28 08:39:10]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-08-28 08:39:15]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-08-28 08:39:15]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[434]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="menu-1"><![CDATA[Menu 1]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[10]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://localhost/alesha-tech/435/</link>
+		<pubDate>Sat, 28 Aug 2021 08:39:10 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/alesha-tech/?p=435</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>435</wp:post_id>
+		<wp:post_date><![CDATA[2021-08-28 08:39:15]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2021-08-28 08:39:10]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-08-28 08:39:15]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-08-28 08:39:15]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[435]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="menu-1"><![CDATA[Menu 1]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[12]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://localhost/alesha-tech/436/</link>
+		<pubDate>Sat, 28 Aug 2021 08:39:10 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/alesha-tech/?p=436</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>436</wp:post_id>
+		<wp:post_date><![CDATA[2021-08-28 08:39:15]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2021-08-28 08:39:10]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-08-28 08:39:15]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-08-28 08:39:15]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[436]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="menu-1"><![CDATA[Menu 1]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[14]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://localhost/alesha-tech/437/</link>
+		<pubDate>Sat, 28 Aug 2021 08:39:10 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/alesha-tech/?p=437</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>437</wp:post_id>
+		<wp:post_date><![CDATA[2021-08-28 08:39:15]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2021-08-28 08:39:10]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-08-28 08:39:15]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-08-28 08:39:15]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[437]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="menu-1"><![CDATA[Menu 1]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[16]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://localhost/alesha-tech/438/</link>
+		<pubDate>Sat, 28 Aug 2021 08:39:11 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/alesha-tech/?p=438</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>438</wp:post_id>
+		<wp:post_date><![CDATA[2021-08-28 08:39:15]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2021-08-28 08:39:11]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-08-28 08:39:15]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-08-28 08:39:15]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[438]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>5</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="menu-1"><![CDATA[Menu 1]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[18]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://localhost/alesha-tech/mc4wp-form/439/</link>
+		<pubDate>Sat, 28 Aug 2021 09:44:58 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/alesha-tech/mc4wp-form/439/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p style="display:flex;">
+	 
+	<input type="email" name="EMAIL" placeholder="Your email address" required />
+ 	 <input type="submit" value="Sign up" />
+</p>
+
+
+	
+]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>439</wp:post_id>
+		<wp:post_date><![CDATA[2021-08-28 09:44:58]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2021-08-28 09:44:58]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-08-28 09:44:58]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-08-28 09:44:58]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[439]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[mc4wp-form]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_mc4wp_settings]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:9:{s:15:"required_fields";s:5:"EMAIL";s:12:"double_optin";s:1:"1";s:15:"update_existing";s:1:"0";s:17:"replace_interests";s:1:"1";s:15:"subscriber_tags";s:0:"";s:18:"hide_after_success";s:1:"0";s:8:"redirect";s:0:"";s:3:"css";s:10:"theme-blue";s:5:"lists";a:0:{}}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[text_subscribed]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Thank you, your sign-up request was successful! Please check your email inbox to confirm.]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[text_invalid_email]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Please provide a valid email address.]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[text_required_field_missing]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Please fill in the required fields.]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[text_already_subscribed]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Given email address is already subscribed, thank you!]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[text_error]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Oops. Something went wrong. Please try again later.]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[text_unsubscribed]]></wp:meta_key>
+		<wp:meta_value><![CDATA[You were successfully unsubscribed.]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[text_not_subscribed]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Given email address is not subscribed.]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[text_no_lists_selected]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Please select at least one list.]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[text_updated]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Thank you, your records have been updated!]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://localhost/alesha-tech/440/</link>
+		<pubDate>Sat, 28 Aug 2021 10:07:49 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/alesha-tech/?p=440</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>440</wp:post_id>
+		<wp:post_date><![CDATA[2021-08-28 10:08:01]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2021-08-28 10:07:49]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-08-28 10:08:01]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-08-28 10:08:01]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[440]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="footer-menu"><![CDATA[Footer Menu]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[18]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
 		<title><![CDATA[Hello world!]]></title>
 		<link>http://localhost/alesha-tech/hello-world/</link>
 		<pubDate>Tue, 24 Aug 2021 04:26:34 +0000</pubDate>
@@ -2922,388 +3901,101 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[Home]]></title>
-		<link>http://localhost/alesha-tech/?p=20</link>
-		<pubDate></pubDate>
+		<title><![CDATA[Consequatur enim ut qui]]></title>
+		<link>http://localhost/alesha-tech/consequatur-enim-ut-qui/</link>
+		<pubDate>Tue, 24 Aug 2021 14:21:14 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/alesha-tech/?p=20</guid>
+		<guid isPermaLink="false">http://localhost/alesha-tech/consequatur-enim-ut-qui/</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>20</wp:post_id>
-		<wp:post_date><![CDATA[2021-08-24 05:34:15]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-08-24 05:34:15]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<content:encoded><![CDATA[<h5>Voluptas voluptatem et impedit sunt sint animi ex illum. Et facere reprehenderit odit illo eaque in aperiam et. Aut minima exercitationem molestias quod</h5>
+<img src="http://localhost/alesha-tech/wp-content/uploads/2021/08/25d498a1-ebad-3f37-8e59-16377c86ad2a.png">
+<h6>Officia amet omnis itaque. Rerum quo ea sint nemo voluptatibus dicta</h6>
+<blockquote>Saepe est aut sit cum Voluptatum eligendi aut in Adipisci eligendi iure quia eos. Voluptas ut fugit magnam. Fugiat recusandae amet culpa atque et Et pariatur aut omnis voluptate fuga perspiciatis. Et debitis velit quo est voluptate cupiditate. Sit amet <a title="Quam cum." href="http://www.metz.net/">laboriosam</a> quae tenetur amet. Eveniet <a title="Non ea sequi incidunt ut ullam in perspiciatis repudiandae." href="http://www.weissnat.com/magni-voluptas-nisi-numquam-distinctio">harum</a> sapiente. Fuga molestiae Ratione ipsum architecto eos soluta ex rerum esse. autem et reprehenderit. Nesciunt qui aliquam nihil pariatur ut Debitis distinctio assumenda ipsam tempora non Et laboriosam soluta eaque dolore. Quia nulla praesentium porro. Necessitatibus enim <a title="Exercitationem voluptas at omnis." href="https://www.dooley.com/reprehenderit-nisi-repudiandae-unde-est-est-doloribus-consequatur-et">sit. Recusandae ad sint dolor</a> est possimus laboriosam est. voluptatem est sunt et deleniti sint Corrupti earum dolores libero minima. debitis corrupti nostrum placeat dolor unde. aut iste dolorum animi accusamus Numquam laudantium aut amet repellat. Mollitia ut corporis aliquam. Et sunt laborum provident repellendus a sequi. Eaque et facilis quo. incidunt earum quia omnis aut. accusantium provident <a title="Quas." href="http://langworth.biz/qui-autem-esse-tempora-amet-delectus.html">et culpa magni sint.</a> qui expedita facere voluptatem sit. iusto voluptas nostrum consequuntur.</blockquote>
+<ul><li>Minima incidunt et</li><li>Sed deserunt sequi</li><li>Tenetur omnis nemo</li><li>Saepe ea aut aut</li><li>Vitae</li></ul>
+<blockquote><a title="Quaerat modi voluptatem id molestias voluptas recusandae non amet." href="http://gulgowski.com/aperiam-voluptatibus-adipisci-maxime-fuga-pariatur-omnis-maiores.html">Perferendis</a> qui nesciunt. Excepturi eius facilis vero. Est nobis nam reiciendis sit aut vitae. <a title="Laborum incidunt nostrum quos possimus quod natus itaque illo non expedita quibusdam." href="http://stracke.com/voluptatum-et-cupiditate-atque">voluptas</a> quis est <a title="Error." href="http://www.hartmann.com/culpa-autem-dolores-quis-et-doloremque-aut-facilis-molestiae">Est</a> <a title="Minus inventore pariatur quam." href="http://www.wiegand.info/porro-officiis-velit-alias-facilis">hic voluptate</a> earum eos. sunt consequatur quo. Laudantium ipsa officiis <a title="Ad sit facilis earum." href="https://walker.org/aut-consequatur-dolore-laboriosam-voluptatem-ullam.html">dolorem ad. Enim</a> inventore delectus enim. Voluptas mollitia et eos dolor.</blockquote>
+<blockquote>Pariatur reprehenderit <a title="Amet." href="https://simonis.com/ut-commodi-recusandae-voluptatem.html">molestiae veritatis.</a> iusto quisquam praesentium Quia dolores quidem necessitatibus facere aliquam. rerum esse autem nam quod Quia optio quo dolore Numquam deserunt facere <a title="Provident dignissimos molestiae." href="http://www.berge.com/quia-est-voluptatem-saepe-rerum-ut-repellat-dolorum.html">aliquam mollitia quam.</a> et id sit distinctio dolorem. Totam ut minima veritatis voluptatum sit maiores. deleniti saepe corporis dignissimos. Nisi sequi odit architecto quasi <a title="Accusantium perspiciatis eligendi laudantium adipisci eum." href="https://www.schimmel.info/corporis-omnis-natus-illo-ut">Tempore explicabo quis</a> et. Omnis officiis minus adipisci velit Eius sed ratione nihil et vel quo distinctio. Odit ipsa voluptatem numquam non adipisci. Laborum et qui sit quaerat quidem placeat. <a title="Perferendis eveniet sed." href="http://www.schinner.com/">quo veritatis vel occaecati.</a> quis id modi error et facere. Et vitae nemo dignissimos <a title="Quia aut unde doloremque." href="https://ernser.biz/vero-et-molestias-est-harum-mollitia-unde-ut-doloribus.html">Tenetur illum beatae</a> quas temporibus molestiae laudantium. sequi iste labore ullam In repudiandae omnis eum. Blanditiis sed rerum laudantium sunt. dolorem earum. Velit autem et nihil tempore amet. Accusamus et et dolores. Magnam qui soluta.</blockquote>
+<!--more-->
+<h4>Eligendi reiciendis pariatur aut minima est. Sequi ut labore ut adipisci et</h4>
+<img alt="Qui pariatur ea numquam quae et" src="http://localhost/alesha-tech/wp-content/uploads/2021/08/b6ec1fca-1cb6-344e-be81-31024665dc67.png">
+<h2>Corrupti ut unde ratione accusantium. Accusamus hic rerum ex</h2>
+<blockquote>Aut aperiam tempore et beatae aliquid. Veritatis sit vel veritatis minus natus qui. Alias eos cupiditate eos qui praesentium quod excepturi dolorem. Expedita porro error tenetur et sint assumenda laborum. Magnam deleniti unde voluptas numquam. Qui doloremque cum aut corrupti et rerum ab. Atque temporibus repellendus minus ea facere voluptatem aut error. Aliquid veniam dolore rerum nobis praesentium ipsum architecto eos. Ut voluptatum quos quia autem. Eveniet perspiciatis quod at eum eum assumenda voluptatem pariatur. Et ab quo qui velit. Exercitationem magnam exercitationem voluptas. Temporibus blanditiis atque quis facilis dolores soluta quia eligendi. Ex atque qui ea eum sed cumque nihil. Ab illo reiciendis tempora dolores. Porro dolore ab ut maiores ut doloribus est.</blockquote>
+<img alt="Quia saepe deserunt eos" src="http://localhost/alesha-tech/wp-content/uploads/2021/08/147617b1-dc90-35de-8d89-1f84f2ab169a.jpg">
+<h1>Quo in ut nisi eum laudantium similique. Non eligendi doloremque dicta maiores omnis. Vel sunt porro itaque</h1>
+<img class="alignleft" src="http://localhost/alesha-tech/wp-content/uploads/2021/08/91e00d53-4f20-3398-b20d-14f2ae14596c.png">]]></content:encoded>
+		<excerpt:encoded><![CDATA[Officiis rem omnis quia aut iste et deleniti aut vero est at pariatur ex deleniti voluptas veritatis dolores ea nobis quaerat sed quaerat eum aut quas praesentium rerum dolore fugit consequatur officia impedit ipsum itaque et nobis aspernatur accusamus molestias eos.]]></excerpt:encoded>
+		<wp:post_id>204</wp:post_id>
+		<wp:post_date><![CDATA[2021-08-24 14:21:14]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2021-08-24 14:21:14]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-08-25 05:57:03]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-08-25 05:57:03]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[]]></wp:post_name>
-		<wp:status><![CDATA[draft]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>1</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_name><![CDATA[consequatur-enim-ut-qui]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>12</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+										<category domain="category" nicename="apps-development"><![CDATA[Apps Development]]></category>
+		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+		<category domain="category" nicename="web-design"><![CDATA[Web Design]]></category>
+		<category domain="category" nicename="web-development"><![CDATA[Web Development]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[fakerpress_flag]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[20]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[http://localhost/alesha-tech/]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_orphaned]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1629783256]]></wp:meta_value>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[205]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[]]></title>
-		<link>http://localhost/alesha-tech/21/</link>
-		<pubDate>Tue, 24 Aug 2021 05:34:45 +0000</pubDate>
+		<title><![CDATA[Debitis reiciendis voluptatem sit ad laudantium qui]]></title>
+		<link>http://localhost/alesha-tech/debitis-reiciendis-voluptatem-sit-ad-laudantium-qui/</link>
+		<pubDate>Tue, 24 Aug 2021 16:00:13 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/alesha-tech/?p=21</guid>
+		<guid isPermaLink="false">http://localhost/alesha-tech/debitis-reiciendis-voluptatem-sit-ad-laudantium-qui/</guid>
 		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>21</wp:post_id>
-		<wp:post_date><![CDATA[2021-08-28 06:03:48]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2021-08-24 05:34:45]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-08-28 06:03:48]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-08-28 06:03:48]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[21]]></wp:post_name>
+		<content:encoded><![CDATA[<h2>Itaque tempora cum nostrum ea. Dolores distinctio vitae et facere. Corporis culpa ut facere vitae ut</h2>
+<hr>
+<!--more-->
+<h1>Asperiores dolorem id qui eos dolorem perspiciatis. Sit autem earum sunt voluptates. Dolores sed sit pariatur aperiam</h1>
+<p>Cumque qui voluptatem nisi. Fugit eos velit provident omnis fuga nostrum. Amet nihil in ea. Eos unde ut. Quis doloribus aut laudantium quaerat commodi. blanditiis et et ea architecto. Est at et incidunt ea. Velit vel et libero nihil saepe Sunt sunt sed et amet. Nihil repudiandae natus qui dolorem rerum. omnis sit voluptas ab deserunt Voluptatem qui voluptate quis velit. ipsam distinctio nostrum <a title="Officiis consequuntur sed a." href="http://www.schaefer.biz/">debitis. Repellendus ratione a enim</a> Ipsam alias perspiciatis perspiciatis eligendi. Culpa voluptas mollitia enim Nihil provident ad nobis hic Corporis est labore laborum cum. Tempora et velit Aut possimus dolor natus dignissimos iusto eum. nesciunt iure officiis necessitatibus nam ut. Vel velit est voluptatum sapiente qui modi Sit officia molestiae inventore magnam Ea excepturi asperiores Sint aliquam repellat qui aliquid. fugiat blanditiis minima quaerat. dolores voluptatem similique eligendi distinctio. Quos nobis quis reiciendis iusto nisi. quae consequatur quis. Consequatur qui voluptatum molestiae quidem Fugit qui sit vel in quaerat et. Ut impedit atque est tempora sunt veritatis. Quaerat molestiae necessitatibus Sed aut voluptas dolorum sit debitis facilis. Est optio nulla maxime fuga. Ea voluptatem porro amet officiis sunt quis ducimus. in voluptate perferendis quod nulla. Velit soluta ea.</p>
+<img alt="Maiores ipsum et" src="http://localhost/alesha-tech/wp-content/uploads/2021/08/615071b2-da8f-3a3b-8cec-d748a87c7ab3.jpg">
+<h5>Corporis velit commodi cumque ab recusandae reiciendis consectetur. Deserunt molestiae rem excepturi</h5>
+<blockquote>Deserunt officiis a iusto rerum sed Unde autem molestiae qui tempora eos facere. doloremque odio rerum voluptas voluptatum. Eaque quisquam quis rerum ratione temporibus. Nemo architecto minima recusandae ullam. Inventore quo aut ut Eum rem magni aperiam in quo dolorum pariatur. vel magnam est ea quae. Quam dolores id inventore atque qui. in quidem laborum.</blockquote>
+<ol><li>Qui iste aut in similique</li><li>Quia nesciunt facilis enim aut assumenda illum</li><li>Ut perspiciatis consequuntur libero dolores</li><li>Rerum tempora aut facilis</li><li>Ducimus iure facilis</li><li>Et tenetur magnam culpa</li></ol>
+<hr>
+<ol><li>Sunt et in nihil illum odio</li><li>Veritatis distinctio aut saepe velit</li><li>Totam molestiae est</li><li>Nam amet reprehenderit nobis fuga</li><li>Aspernatur et qui ut dolore tempora</li><li>Magnam nam ea et accusamus</li></ol>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Sapiente laudantium error sit ut dolorem nesciunt qui dolore odio magnam ut eveniet sit a voluptatum dolores consectetur nobis explicabo et eaque ratione odio sed perferendis consequatur magnam nihil nesciunt dolores ullam perspiciatis dicta nobis rerum velit sequi culpa ipsa facilis voluptatem omnis laborum accusamus ut eum quos.
+
+Tempore et expedita illum aliquid nobis accusantium facilis error aut et soluta adipisci sed et modi amet praesentium dignissimos cum enim officia voluptatem ut saepe at sed ullam aut omnis eum quaerat veritatis et harum veritatis voluptatem neque.]]></excerpt:encoded>
+		<wp:post_id>207</wp:post_id>
+		<wp:post_date><![CDATA[2021-08-24 16:00:13]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2021-08-24 16:00:13]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-08-25 05:57:03]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-08-25 05:57:03]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[debitis-reiciendis-voluptatem-sit-ad-laudantium-qui]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>2</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
+										<category domain="category" nicename="apps-development"><![CDATA[Apps Development]]></category>
+		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+		<category domain="category" nicename="web-design"><![CDATA[Web Design]]></category>
+		<category domain="category" nicename="web-development"><![CDATA[Web Development]]></category>
 						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		<wp:meta_key><![CDATA[fakerpress_flag]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[14]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021-08-24]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021-08-25]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[]]></title>
-		<link>http://localhost/alesha-tech/22/</link>
-		<pubDate>Tue, 24 Aug 2021 05:34:45 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/alesha-tech/?p=22</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>22</wp:post_id>
-		<wp:post_date><![CDATA[2021-08-28 06:03:48]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2021-08-24 05:34:45]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-08-28 06:03:48]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-08-28 06:03:48]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[22]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>4</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[12]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021-08-24]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021-08-25]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[]]></title>
-		<link>http://localhost/alesha-tech/23/</link>
-		<pubDate>Tue, 24 Aug 2021 05:34:45 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/alesha-tech/?p=23</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>23</wp:post_id>
-		<wp:post_date><![CDATA[2021-08-28 06:03:48]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2021-08-24 05:34:45]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-08-28 06:03:48]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-08-28 06:03:48]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[23]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>5</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[16]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021-08-24]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021-08-25]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[]]></title>
-		<link>http://localhost/alesha-tech/24/</link>
-		<pubDate>Tue, 24 Aug 2021 05:34:44 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/alesha-tech/?p=24</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>24</wp:post_id>
-		<wp:post_date><![CDATA[2021-08-28 06:03:48]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2021-08-24 05:34:44]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-08-28 06:03:48]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-08-28 06:03:48]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[24]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>1</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[10]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021-08-24]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021-08-25]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[]]></title>
-		<link>http://localhost/alesha-tech/25/</link>
-		<pubDate>Tue, 24 Aug 2021 05:34:45 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/alesha-tech/?p=25</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>25</wp:post_id>
-		<wp:post_date><![CDATA[2021-08-28 06:03:48]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2021-08-24 05:34:45]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-08-28 06:03:48]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-08-28 06:03:48]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[25]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>3</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[18]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021-08-24]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021-08-25]]></wp:meta_value>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[208]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -3562,6 +4254,50 @@ Voluptatem nihil beatae ut quasi qui eum laboriosam. Sint aut officia sapiente n
 		</wp:postmeta>
 							</item>
 					<item>
+		<title><![CDATA[Maxime sit dignissimos explicabo neque]]></title>
+		<link>http://localhost/alesha-tech/maxime-sit-dignissimos-explicabo-neque/</link>
+		<pubDate>Tue, 24 Aug 2021 21:39:18 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/alesha-tech/maxime-sit-dignissimos-explicabo-neque/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<h2>In est enim sunt accusamus. Suscipit corporis consequatur debitis autem totam tenetur. Optio molestiae aut architecto necessitatibus est tenetur quia</h2>
+<ul><li>Eos distinctio iste eaque nihil dolorem cupiditate</li><li>Amet eaque est ut omnis</li><li>Nulla rerum quis in sint</li><li>Numquam cumque hic est quas</li></ul>
+<h4>At rem dicta unde quaerat eos veniam et itaque. Voluptatibus reprehenderit repellat non omnis aut</h4>
+<!--more-->
+<ul><li>Excepturi neque repudiandae est et aut sint quas</li><li>Omnis aut voluptatem aliquam quasi commodi</li><li>Nobis aut cumque</li><li>Et temporibus vel omnis</li></ul>
+<p>Magni et et animi corporis amet voluptatem. Sed deserunt non <a title="Et nulla fugiat minus deserunt aliquid." href="http://www.medhurst.com/explicabo-necessitatibus-quas-provident-autem-facere-eligendi-nesciunt">quia. Qui aperiam quisquam et dolores est</a> aut blanditiis. Animi nulla dolor odit soluta hic in. Nihil ut voluptas voluptatem omnis possimus excepturi. Deleniti ab sed et eum earum. quis ipsa tenetur repudiandae expedita. voluptatibus voluptatibus saepe Corporis facere debitis minima qui exercitationem numquam sequi. Excepturi unde inventore explicabo explicabo nihil. Rerum corporis ut tempore facere. delectus assumenda ducimus est veniam officia laudantium Dolorem voluptatum vel neque. Reprehenderit sunt aut enim et. quae eligendi non ipsum maiores inventore. Doloremque adipisci corporis qui. Et molestiae quidem eveniet. voluptatem commodi aut vitae sit. Neque alias voluptatem non quia doloribus. Aut harum laborum laborum ut Quae et sequi. Est <a title="Voluptatum earum." href="http://www.heller.com/">repellendus qui voluptate ad voluptatum.</a> veniam qui architecto sit. possimus nihil at nemo illo cumque. Est quam accusamus Qui porro corrupti Quasi ducimus in earum eum. Tempore et sed. Harum <a title="Adipisci natus quos." href="http://www.lesch.com/">placeat ullam</a> repellat Voluptatem voluptatem libero tempore eius aut. exercitationem ut voluptas eligendi vitae nostrum ut. Illo et natus fugiat non sunt Hic fugiat nisi magni neque accusantium Eaque aut dolorum. Velit quia nulla dolorum</p>
+<p>Quasi iusto illo sit. autem sed deserunt illum sunt. <a title="In aliquid qui voluptas officiis voluptatem enim." href="https://okuneva.com/magnam-distinctio-ipsum-consectetur-consequatur-provident.html">et recusandae</a> architecto sapiente Expedita maxime quisquam est molestiae laudantium. Non quo iure officiis aperiam tempore. Autem consectetur qui rerum blanditiis Numquam doloremque consequatur qui <a title="Omnis quos." href="http://www.bailey.com/est-similique-harum-doloribus-cum-voluptatem.html">Libero odit quisquam</a> velit sint. Illum excepturi accusantium nobis impedit nisi. Officia voluptatem asperiores voluptatem. Provident nihil magnam architecto sunt. Cum qui voluptatem cumque debitis. Omnis voluptatibus tempore nam consequatur ipsum necessitatibus. Consequuntur et inventore deleniti. Qui velit molestiae <a title="Reprehenderit." href="http://www.larkin.com/">esse nobis</a> quo. Sequi pariatur quam natus quis Ex minima accusamus qui voluptatem vel. Tempora porro iste qui dolor. Alias <a title="Fugit exercitationem iste." href="https://www.reynolds.com/aut-at-id-ipsa-rerum-enim-similique-in">quae</a> corporis. ut natus eos officia tenetur non voluptatibus. natus ad officia ut. Qui numquam et sed quo consequatur.</p>
+<img class="alignright" alt="Quia est rerum atque ipsa voluptates et dolorem voluptas et" src="http://localhost/alesha-tech/wp-content/uploads/2021/08/3f8d6322-01e5-3c0e-afba-4e19a96ad9f7.png">
+<hr>
+<hr>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Adipisci nobis veritatis vero eum similique incidunt possimus autem excepturi modi ut omnis exercitationem expedita atque deserunt laborum cum consequatur in quia voluptates tempora porro ex quia nesciunt nihil sapiente laboriosam eius debitis minus cupiditate in iure amet et voluptatem rerum tempora omnis sunt ipsum delectus eligendi pariatur consequatur consequuntur qui adipisci enim qui est incidunt quos error.]]></excerpt:encoded>
+		<wp:post_id>231</wp:post_id>
+		<wp:post_date><![CDATA[2021-08-24 21:39:18]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2021-08-24 21:39:18]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-08-25 05:56:16]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-08-25 05:56:16]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[maxime-sit-dignissimos-explicabo-neque]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>12</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="category" nicename="apps-development"><![CDATA[Apps Development]]></category>
+		<category domain="category" nicename="web-design"><![CDATA[Web Design]]></category>
+		<category domain="category" nicename="web-development"><![CDATA[Web Development]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[fakerpress_flag]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[232]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
 		<title><![CDATA[Repellat voluptatem quos rerum]]></title>
 		<link>http://localhost/alesha-tech/repellat-voluptatem-quos-rerum/</link>
 		<pubDate>Tue, 24 Aug 2021 08:16:04 +0000</pubDate>
@@ -3608,6 +4344,63 @@ Mollitia nihil laudantium aut neque cum esse qui inventore dolorem earum eius ex
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
 		<wp:meta_value><![CDATA[234]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Eum nam aut eos unde saepe]]></title>
+		<link>http://localhost/alesha-tech/eum-nam-aut-eos-unde-saepe/</link>
+		<pubDate>Tue, 24 Aug 2021 14:49:31 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/alesha-tech/eum-nam-aut-eos-unde-saepe/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<ol><li>Repellendus nemo neque</li></ol>
+<h1>Non eum asperiores quis velit. Ut aliquid saepe similique accusantium assumenda corporis. Aliquid quisquam et incidunt</h1>
+<p>Eum deserunt architecto numquam ab aliquid ipsam. Facilis atque eos eaque laborum ea. Perspiciatis dolor necessitatibus rem. Voluptatem a nihil accusantium harum. Id quidem mollitia qui. et ab architecto. <a title="Voluptatum doloribus consectetur velit ut consequuntur nam." href="http://beatty.com/autem-animi-necessitatibus-quo-sit-cupiditate-perspiciatis.html">odio</a> deleniti. Nihil dolore cupiditate architecto odio eum voluptate doloremque. veritatis ad qui facilis In repellendus quibusdam voluptates sunt vitae <a title="Deleniti laudantium tempora omnis." href="http://www.buckridge.org/non-natus-quo-quas-expedita-minima-perferendis">Doloremque debitis</a> quo tempore voluptate. Eius quisquam aspernatur placeat impedit fugiat deleniti. id non sint minima eius. Et veritatis eius repellat tenetur Deserunt eaque illo cumque. Dolor velit <a title="Et itaque." href="http://lockman.com/vitae-et-rem-nam-deleniti-id-omnis.html">dolores. Non qui</a> eos corporis et dolor veniam eius. Odit et consectetur aut. Et quaerat est animi ab.</p>
+<h3>Eum magnam et repudiandae suscipit quod et perferendis. Facere repellat voluptatem rerum adipisci</h3>
+<img class="aligncenter" alt="Sequi doloremque natus dolor consequatur" src="http://localhost/alesha-tech/wp-content/uploads/2021/08/5d1e7d92-38ca-370c-b029-d07c30a84b0e.jpg">
+<h5>Dolorem placeat alias ut culpa ullam. Asperiores voluptatibus ut nostrum fuga sed. Veritatis cumque dolor voluptatibus</h5>
+<hr>
+<!--more-->
+<ul><li>Modi illum soluta non odit</li><li>Vero totam quia ipsum</li><li>Quaerat</li><li>Distinctio dolores libero impedit</li><li>Quis in nihil ducimus</li><li>Numquam est et sunt quia cum quidem</li></ul>
+<img alt="Animi consequuntur recusandae voluptates" src="http://localhost/alesha-tech/wp-content/uploads/2021/08/924fb6b9-cfca-3b2e-abb1-38e5eb207c2a.png">
+<h5>Distinctio asperiores magnam nostrum in suscipit dolor. Soluta fugit provident vitae aut aliquid iure. Aut nam qui earum omnis</h5>
+<p>Doloremque nam et nesciunt possimus rerum dignissimos expedita. Sequi est velit explicabo quam. Qui aliquam minus consequuntur vero unde. Et veritatis non repudiandae ab quasi. Voluptas occaecati id velit autem. Et et sint officiis deserunt cumque. Autem quos perspiciatis omnis nihil. Totam hic voluptates optio tenetur tempore. Qui mollitia itaque magnam quaerat commodi quia. Quis voluptatem voluptate numquam nihil et voluptatibus qui eaque.</p>
+<h1>Aut dolorum asperiores consequuntur</h1>
+<blockquote>Esse voluptatem adipisci rerum autem veniam vitae Doloribus perferendis cumque eos voluptatem autem. Labore accusamus sed harum. Ullam et quia consequatur et fugiat itaque. Repellat laboriosam eos numquam. Explicabo iure et corporis. illo minus Alias non quo nemo repellendus sed. Aliquam et molestias ut quia. Est expedita pariatur quia consequatur <a title="Tenetur quia architecto et." href="http://wyman.info/quas-exercitationem-ut-saepe-velit-dolores-qui">sed.</a> ut soluta voluptatum. ut repellat unde et nemo repellendus. Dolorem sit minima explicabo. consectetur quisquam architecto voluptatibus. Laborum molestiae repellat voluptate deleniti eveniet. Quia aut recusandae Quis modi tenetur deserunt tempora. Inventore omnis excepturi voluptates doloribus ex molestiae. Reprehenderit fugit architecto et consectetur. reprehenderit quo enim similique. Sapiente animi eaque in laudantium ut est. Quibusdam quia <a title="Eum aspernatur aut." href="http://www.dickinson.com/at-omnis-ut-qui-consequuntur-corrupti.html">sint</a> voluptatibus. Recusandae delectus aut vitae ipsa aliquam quia. Non veritatis eius at sed accusantium. et ipsa voluptas ipsam voluptatem atque. Officia est doloribus voluptas animi ea aut. Est et similique provident eaque vitae Natus laborum qui autem distinctio dolorem. Ut possimus et velit distinctio error Autem aut ut saepe numquam quia. omnis quia minima. Voluptatibus voluptatum expedita quo amet. Incidunt omnis voluptate ut non accusamus ea aspernatur. et quia dolores fuga sunt quaerat. Quaerat voluptas facilis odio porro recusandae</blockquote>
+<h4>Aut quam quasi ad. Quidem sit nemo et sint esse laborum</h4>
+<hr>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Placeat et assumenda odit nobis enim ut enim nihil quibusdam enim dicta id eos ut minus repellendus nihil consequatur nisi aut quaerat quisquam explicabo facilis animi quia sit aut quia sed voluptas placeat quasi non.
+
+Error accusamus fugit provident ex qui dignissimos assumenda cum eveniet sapiente ea incidunt accusamus aliquid nisi et voluptatum minima id et sit facilis consequatur consequuntur rem exercitationem voluptas ex inventore omnis quam sunt est.
+
+Sit quia quo nulla ipsam quis ipsum odio voluptate sapiente nisi omnis sint hic eum accusantium voluptas consequatur vero architecto aut ut delectus sit quaerat tempore quia sed eius omnis ea earum quia molestiae ullam tenetur dolores praesentium iure vel consequatur dolores illum.
+
+Magni quibusdam dicta optio aperiam eaque accusamus quibusdam cum eveniet magni assumenda illo sit ratione qui repellendus blanditiis tenetur veritatis et recusandae dignissimos ad cumque ipsa architecto molestias aspernatur non voluptatem nam illum ea.]]></excerpt:encoded>
+		<wp:post_id>236</wp:post_id>
+		<wp:post_date><![CDATA[2021-08-24 14:49:31]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2021-08-24 14:49:31]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-08-25 05:57:03]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-08-25 05:57:03]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[eum-nam-aut-eos-unde-saepe]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>12</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="category" nicename="apps-development"><![CDATA[Apps Development]]></category>
+		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+		<category domain="category" nicename="web-design"><![CDATA[Web Design]]></category>
+		<category domain="category" nicename="web-development"><![CDATA[Web Development]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[fakerpress_flag]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[237]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -3706,6 +4499,120 @@ Consequuntur perspiciatis et architecto ad expedita fuga maiores incidunt unde i
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[fakerpress_flag]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://localhost/alesha-tech/441/</link>
+		<pubDate>Sat, 28 Aug 2021 10:07:50 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/alesha-tech/?p=441</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>441</wp:post_id>
+		<wp:post_date><![CDATA[2021-08-28 10:08:01]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2021-08-28 10:07:50]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-08-28 10:08:01]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-08-28 10:08:01]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[441]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="footer-menu"><![CDATA[Footer Menu]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[16]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://localhost/alesha-tech/442/</link>
+		<pubDate>Sat, 28 Aug 2021 10:07:50 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/alesha-tech/?p=442</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>442</wp:post_id>
+		<wp:post_date><![CDATA[2021-08-28 10:08:01]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2021-08-28 10:07:50]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-08-28 10:08:01]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-08-28 10:08:01]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[442]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="footer-menu"><![CDATA[Footer Menu]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[14]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -3834,104 +4741,6 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
 		<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Consequatur enim ut qui]]></title>
-		<link>http://localhost/alesha-tech/consequatur-enim-ut-qui/</link>
-		<pubDate>Tue, 24 Aug 2021 14:21:14 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/alesha-tech/consequatur-enim-ut-qui/</guid>
-		<description></description>
-		<content:encoded><![CDATA[<h5>Voluptas voluptatem et impedit sunt sint animi ex illum. Et facere reprehenderit odit illo eaque in aperiam et. Aut minima exercitationem molestias quod</h5>
-<img src="http://localhost/alesha-tech/wp-content/uploads/2021/08/25d498a1-ebad-3f37-8e59-16377c86ad2a.png">
-<h6>Officia amet omnis itaque. Rerum quo ea sint nemo voluptatibus dicta</h6>
-<blockquote>Saepe est aut sit cum Voluptatum eligendi aut in Adipisci eligendi iure quia eos. Voluptas ut fugit magnam. Fugiat recusandae amet culpa atque et Et pariatur aut omnis voluptate fuga perspiciatis. Et debitis velit quo est voluptate cupiditate. Sit amet <a title="Quam cum." href="http://www.metz.net/">laboriosam</a> quae tenetur amet. Eveniet <a title="Non ea sequi incidunt ut ullam in perspiciatis repudiandae." href="http://www.weissnat.com/magni-voluptas-nisi-numquam-distinctio">harum</a> sapiente. Fuga molestiae Ratione ipsum architecto eos soluta ex rerum esse. autem et reprehenderit. Nesciunt qui aliquam nihil pariatur ut Debitis distinctio assumenda ipsam tempora non Et laboriosam soluta eaque dolore. Quia nulla praesentium porro. Necessitatibus enim <a title="Exercitationem voluptas at omnis." href="https://www.dooley.com/reprehenderit-nisi-repudiandae-unde-est-est-doloribus-consequatur-et">sit. Recusandae ad sint dolor</a> est possimus laboriosam est. voluptatem est sunt et deleniti sint Corrupti earum dolores libero minima. debitis corrupti nostrum placeat dolor unde. aut iste dolorum animi accusamus Numquam laudantium aut amet repellat. Mollitia ut corporis aliquam. Et sunt laborum provident repellendus a sequi. Eaque et facilis quo. incidunt earum quia omnis aut. accusantium provident <a title="Quas." href="http://langworth.biz/qui-autem-esse-tempora-amet-delectus.html">et culpa magni sint.</a> qui expedita facere voluptatem sit. iusto voluptas nostrum consequuntur.</blockquote>
-<ul><li>Minima incidunt et</li><li>Sed deserunt sequi</li><li>Tenetur omnis nemo</li><li>Saepe ea aut aut</li><li>Vitae</li></ul>
-<blockquote><a title="Quaerat modi voluptatem id molestias voluptas recusandae non amet." href="http://gulgowski.com/aperiam-voluptatibus-adipisci-maxime-fuga-pariatur-omnis-maiores.html">Perferendis</a> qui nesciunt. Excepturi eius facilis vero. Est nobis nam reiciendis sit aut vitae. <a title="Laborum incidunt nostrum quos possimus quod natus itaque illo non expedita quibusdam." href="http://stracke.com/voluptatum-et-cupiditate-atque">voluptas</a> quis est <a title="Error." href="http://www.hartmann.com/culpa-autem-dolores-quis-et-doloremque-aut-facilis-molestiae">Est</a> <a title="Minus inventore pariatur quam." href="http://www.wiegand.info/porro-officiis-velit-alias-facilis">hic voluptate</a> earum eos. sunt consequatur quo. Laudantium ipsa officiis <a title="Ad sit facilis earum." href="https://walker.org/aut-consequatur-dolore-laboriosam-voluptatem-ullam.html">dolorem ad. Enim</a> inventore delectus enim. Voluptas mollitia et eos dolor.</blockquote>
-<blockquote>Pariatur reprehenderit <a title="Amet." href="https://simonis.com/ut-commodi-recusandae-voluptatem.html">molestiae veritatis.</a> iusto quisquam praesentium Quia dolores quidem necessitatibus facere aliquam. rerum esse autem nam quod Quia optio quo dolore Numquam deserunt facere <a title="Provident dignissimos molestiae." href="http://www.berge.com/quia-est-voluptatem-saepe-rerum-ut-repellat-dolorum.html">aliquam mollitia quam.</a> et id sit distinctio dolorem. Totam ut minima veritatis voluptatum sit maiores. deleniti saepe corporis dignissimos. Nisi sequi odit architecto quasi <a title="Accusantium perspiciatis eligendi laudantium adipisci eum." href="https://www.schimmel.info/corporis-omnis-natus-illo-ut">Tempore explicabo quis</a> et. Omnis officiis minus adipisci velit Eius sed ratione nihil et vel quo distinctio. Odit ipsa voluptatem numquam non adipisci. Laborum et qui sit quaerat quidem placeat. <a title="Perferendis eveniet sed." href="http://www.schinner.com/">quo veritatis vel occaecati.</a> quis id modi error et facere. Et vitae nemo dignissimos <a title="Quia aut unde doloremque." href="https://ernser.biz/vero-et-molestias-est-harum-mollitia-unde-ut-doloribus.html">Tenetur illum beatae</a> quas temporibus molestiae laudantium. sequi iste labore ullam In repudiandae omnis eum. Blanditiis sed rerum laudantium sunt. dolorem earum. Velit autem et nihil tempore amet. Accusamus et et dolores. Magnam qui soluta.</blockquote>
-<!--more-->
-<h4>Eligendi reiciendis pariatur aut minima est. Sequi ut labore ut adipisci et</h4>
-<img alt="Qui pariatur ea numquam quae et" src="http://localhost/alesha-tech/wp-content/uploads/2021/08/b6ec1fca-1cb6-344e-be81-31024665dc67.png">
-<h2>Corrupti ut unde ratione accusantium. Accusamus hic rerum ex</h2>
-<blockquote>Aut aperiam tempore et beatae aliquid. Veritatis sit vel veritatis minus natus qui. Alias eos cupiditate eos qui praesentium quod excepturi dolorem. Expedita porro error tenetur et sint assumenda laborum. Magnam deleniti unde voluptas numquam. Qui doloremque cum aut corrupti et rerum ab. Atque temporibus repellendus minus ea facere voluptatem aut error. Aliquid veniam dolore rerum nobis praesentium ipsum architecto eos. Ut voluptatum quos quia autem. Eveniet perspiciatis quod at eum eum assumenda voluptatem pariatur. Et ab quo qui velit. Exercitationem magnam exercitationem voluptas. Temporibus blanditiis atque quis facilis dolores soluta quia eligendi. Ex atque qui ea eum sed cumque nihil. Ab illo reiciendis tempora dolores. Porro dolore ab ut maiores ut doloribus est.</blockquote>
-<img alt="Quia saepe deserunt eos" src="http://localhost/alesha-tech/wp-content/uploads/2021/08/147617b1-dc90-35de-8d89-1f84f2ab169a.jpg">
-<h1>Quo in ut nisi eum laudantium similique. Non eligendi doloremque dicta maiores omnis. Vel sunt porro itaque</h1>
-<img class="alignleft" src="http://localhost/alesha-tech/wp-content/uploads/2021/08/91e00d53-4f20-3398-b20d-14f2ae14596c.png">]]></content:encoded>
-		<excerpt:encoded><![CDATA[Officiis rem omnis quia aut iste et deleniti aut vero est at pariatur ex deleniti voluptas veritatis dolores ea nobis quaerat sed quaerat eum aut quas praesentium rerum dolore fugit consequatur officia impedit ipsum itaque et nobis aspernatur accusamus molestias eos.]]></excerpt:encoded>
-		<wp:post_id>204</wp:post_id>
-		<wp:post_date><![CDATA[2021-08-24 14:21:14]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2021-08-24 14:21:14]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-08-25 05:57:03]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-08-25 05:57:03]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[consequatur-enim-ut-qui]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>12</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="apps-development"><![CDATA[Apps Development]]></category>
-		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-		<category domain="category" nicename="web-design"><![CDATA[Web Design]]></category>
-		<category domain="category" nicename="web-development"><![CDATA[Web Development]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[fakerpress_flag]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[205]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Debitis reiciendis voluptatem sit ad laudantium qui]]></title>
-		<link>http://localhost/alesha-tech/debitis-reiciendis-voluptatem-sit-ad-laudantium-qui/</link>
-		<pubDate>Tue, 24 Aug 2021 16:00:13 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/alesha-tech/debitis-reiciendis-voluptatem-sit-ad-laudantium-qui/</guid>
-		<description></description>
-		<content:encoded><![CDATA[<h2>Itaque tempora cum nostrum ea. Dolores distinctio vitae et facere. Corporis culpa ut facere vitae ut</h2>
-<hr>
-<!--more-->
-<h1>Asperiores dolorem id qui eos dolorem perspiciatis. Sit autem earum sunt voluptates. Dolores sed sit pariatur aperiam</h1>
-<p>Cumque qui voluptatem nisi. Fugit eos velit provident omnis fuga nostrum. Amet nihil in ea. Eos unde ut. Quis doloribus aut laudantium quaerat commodi. blanditiis et et ea architecto. Est at et incidunt ea. Velit vel et libero nihil saepe Sunt sunt sed et amet. Nihil repudiandae natus qui dolorem rerum. omnis sit voluptas ab deserunt Voluptatem qui voluptate quis velit. ipsam distinctio nostrum <a title="Officiis consequuntur sed a." href="http://www.schaefer.biz/">debitis. Repellendus ratione a enim</a> Ipsam alias perspiciatis perspiciatis eligendi. Culpa voluptas mollitia enim Nihil provident ad nobis hic Corporis est labore laborum cum. Tempora et velit Aut possimus dolor natus dignissimos iusto eum. nesciunt iure officiis necessitatibus nam ut. Vel velit est voluptatum sapiente qui modi Sit officia molestiae inventore magnam Ea excepturi asperiores Sint aliquam repellat qui aliquid. fugiat blanditiis minima quaerat. dolores voluptatem similique eligendi distinctio. Quos nobis quis reiciendis iusto nisi. quae consequatur quis. Consequatur qui voluptatum molestiae quidem Fugit qui sit vel in quaerat et. Ut impedit atque est tempora sunt veritatis. Quaerat molestiae necessitatibus Sed aut voluptas dolorum sit debitis facilis. Est optio nulla maxime fuga. Ea voluptatem porro amet officiis sunt quis ducimus. in voluptate perferendis quod nulla. Velit soluta ea.</p>
-<img alt="Maiores ipsum et" src="http://localhost/alesha-tech/wp-content/uploads/2021/08/615071b2-da8f-3a3b-8cec-d748a87c7ab3.jpg">
-<h5>Corporis velit commodi cumque ab recusandae reiciendis consectetur. Deserunt molestiae rem excepturi</h5>
-<blockquote>Deserunt officiis a iusto rerum sed Unde autem molestiae qui tempora eos facere. doloremque odio rerum voluptas voluptatum. Eaque quisquam quis rerum ratione temporibus. Nemo architecto minima recusandae ullam. Inventore quo aut ut Eum rem magni aperiam in quo dolorum pariatur. vel magnam est ea quae. Quam dolores id inventore atque qui. in quidem laborum.</blockquote>
-<ol><li>Qui iste aut in similique</li><li>Quia nesciunt facilis enim aut assumenda illum</li><li>Ut perspiciatis consequuntur libero dolores</li><li>Rerum tempora aut facilis</li><li>Ducimus iure facilis</li><li>Et tenetur magnam culpa</li></ol>
-<hr>
-<ol><li>Sunt et in nihil illum odio</li><li>Veritatis distinctio aut saepe velit</li><li>Totam molestiae est</li><li>Nam amet reprehenderit nobis fuga</li><li>Aspernatur et qui ut dolore tempora</li><li>Magnam nam ea et accusamus</li></ol>]]></content:encoded>
-		<excerpt:encoded><![CDATA[Sapiente laudantium error sit ut dolorem nesciunt qui dolore odio magnam ut eveniet sit a voluptatum dolores consectetur nobis explicabo et eaque ratione odio sed perferendis consequatur magnam nihil nesciunt dolores ullam perspiciatis dicta nobis rerum velit sequi culpa ipsa facilis voluptatem omnis laborum accusamus ut eum quos.
-
-Tempore et expedita illum aliquid nobis accusantium facilis error aut et soluta adipisci sed et modi amet praesentium dignissimos cum enim officia voluptatem ut saepe at sed ullam aut omnis eum quaerat veritatis et harum veritatis voluptatem neque.]]></excerpt:encoded>
-		<wp:post_id>207</wp:post_id>
-		<wp:post_date><![CDATA[2021-08-24 16:00:13]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2021-08-24 16:00:13]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-08-25 05:57:03]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-08-25 05:57:03]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[debitis-reiciendis-voluptatem-sit-ad-laudantium-qui]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="apps-development"><![CDATA[Apps Development]]></category>
-		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-		<category domain="category" nicename="web-design"><![CDATA[Web Design]]></category>
-		<category domain="category" nicename="web-development"><![CDATA[Web Development]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[fakerpress_flag]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[208]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -4080,107 +4889,6 @@ Rerum maiores cumque voluptas sed assumenda ipsum consequatur voluptatem quo exe
 			<wp:comment_user_id>1</wp:comment_user_id>
 							</wp:comment>
 					</item>
-					<item>
-		<title><![CDATA[Maxime sit dignissimos explicabo neque]]></title>
-		<link>http://localhost/alesha-tech/maxime-sit-dignissimos-explicabo-neque/</link>
-		<pubDate>Tue, 24 Aug 2021 21:39:18 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/alesha-tech/maxime-sit-dignissimos-explicabo-neque/</guid>
-		<description></description>
-		<content:encoded><![CDATA[<h2>In est enim sunt accusamus. Suscipit corporis consequatur debitis autem totam tenetur. Optio molestiae aut architecto necessitatibus est tenetur quia</h2>
-<ul><li>Eos distinctio iste eaque nihil dolorem cupiditate</li><li>Amet eaque est ut omnis</li><li>Nulla rerum quis in sint</li><li>Numquam cumque hic est quas</li></ul>
-<h4>At rem dicta unde quaerat eos veniam et itaque. Voluptatibus reprehenderit repellat non omnis aut</h4>
-<!--more-->
-<ul><li>Excepturi neque repudiandae est et aut sint quas</li><li>Omnis aut voluptatem aliquam quasi commodi</li><li>Nobis aut cumque</li><li>Et temporibus vel omnis</li></ul>
-<p>Magni et et animi corporis amet voluptatem. Sed deserunt non <a title="Et nulla fugiat minus deserunt aliquid." href="http://www.medhurst.com/explicabo-necessitatibus-quas-provident-autem-facere-eligendi-nesciunt">quia. Qui aperiam quisquam et dolores est</a> aut blanditiis. Animi nulla dolor odit soluta hic in. Nihil ut voluptas voluptatem omnis possimus excepturi. Deleniti ab sed et eum earum. quis ipsa tenetur repudiandae expedita. voluptatibus voluptatibus saepe Corporis facere debitis minima qui exercitationem numquam sequi. Excepturi unde inventore explicabo explicabo nihil. Rerum corporis ut tempore facere. delectus assumenda ducimus est veniam officia laudantium Dolorem voluptatum vel neque. Reprehenderit sunt aut enim et. quae eligendi non ipsum maiores inventore. Doloremque adipisci corporis qui. Et molestiae quidem eveniet. voluptatem commodi aut vitae sit. Neque alias voluptatem non quia doloribus. Aut harum laborum laborum ut Quae et sequi. Est <a title="Voluptatum earum." href="http://www.heller.com/">repellendus qui voluptate ad voluptatum.</a> veniam qui architecto sit. possimus nihil at nemo illo cumque. Est quam accusamus Qui porro corrupti Quasi ducimus in earum eum. Tempore et sed. Harum <a title="Adipisci natus quos." href="http://www.lesch.com/">placeat ullam</a> repellat Voluptatem voluptatem libero tempore eius aut. exercitationem ut voluptas eligendi vitae nostrum ut. Illo et natus fugiat non sunt Hic fugiat nisi magni neque accusantium Eaque aut dolorum. Velit quia nulla dolorum</p>
-<p>Quasi iusto illo sit. autem sed deserunt illum sunt. <a title="In aliquid qui voluptas officiis voluptatem enim." href="https://okuneva.com/magnam-distinctio-ipsum-consectetur-consequatur-provident.html">et recusandae</a> architecto sapiente Expedita maxime quisquam est molestiae laudantium. Non quo iure officiis aperiam tempore. Autem consectetur qui rerum blanditiis Numquam doloremque consequatur qui <a title="Omnis quos." href="http://www.bailey.com/est-similique-harum-doloribus-cum-voluptatem.html">Libero odit quisquam</a> velit sint. Illum excepturi accusantium nobis impedit nisi. Officia voluptatem asperiores voluptatem. Provident nihil magnam architecto sunt. Cum qui voluptatem cumque debitis. Omnis voluptatibus tempore nam consequatur ipsum necessitatibus. Consequuntur et inventore deleniti. Qui velit molestiae <a title="Reprehenderit." href="http://www.larkin.com/">esse nobis</a> quo. Sequi pariatur quam natus quis Ex minima accusamus qui voluptatem vel. Tempora porro iste qui dolor. Alias <a title="Fugit exercitationem iste." href="https://www.reynolds.com/aut-at-id-ipsa-rerum-enim-similique-in">quae</a> corporis. ut natus eos officia tenetur non voluptatibus. natus ad officia ut. Qui numquam et sed quo consequatur.</p>
-<img class="alignright" alt="Quia est rerum atque ipsa voluptates et dolorem voluptas et" src="http://localhost/alesha-tech/wp-content/uploads/2021/08/3f8d6322-01e5-3c0e-afba-4e19a96ad9f7.png">
-<hr>
-<hr>]]></content:encoded>
-		<excerpt:encoded><![CDATA[Adipisci nobis veritatis vero eum similique incidunt possimus autem excepturi modi ut omnis exercitationem expedita atque deserunt laborum cum consequatur in quia voluptates tempora porro ex quia nesciunt nihil sapiente laboriosam eius debitis minus cupiditate in iure amet et voluptatem rerum tempora omnis sunt ipsum delectus eligendi pariatur consequatur consequuntur qui adipisci enim qui est incidunt quos error.]]></excerpt:encoded>
-		<wp:post_id>231</wp:post_id>
-		<wp:post_date><![CDATA[2021-08-24 21:39:18]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2021-08-24 21:39:18]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-08-25 05:56:16]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-08-25 05:56:16]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[maxime-sit-dignissimos-explicabo-neque]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>12</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="apps-development"><![CDATA[Apps Development]]></category>
-		<category domain="category" nicename="web-design"><![CDATA[Web Design]]></category>
-		<category domain="category" nicename="web-development"><![CDATA[Web Development]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[fakerpress_flag]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[232]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Eum nam aut eos unde saepe]]></title>
-		<link>http://localhost/alesha-tech/eum-nam-aut-eos-unde-saepe/</link>
-		<pubDate>Tue, 24 Aug 2021 14:49:31 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/alesha-tech/eum-nam-aut-eos-unde-saepe/</guid>
-		<description></description>
-		<content:encoded><![CDATA[<ol><li>Repellendus nemo neque</li></ol>
-<h1>Non eum asperiores quis velit. Ut aliquid saepe similique accusantium assumenda corporis. Aliquid quisquam et incidunt</h1>
-<p>Eum deserunt architecto numquam ab aliquid ipsam. Facilis atque eos eaque laborum ea. Perspiciatis dolor necessitatibus rem. Voluptatem a nihil accusantium harum. Id quidem mollitia qui. et ab architecto. <a title="Voluptatum doloribus consectetur velit ut consequuntur nam." href="http://beatty.com/autem-animi-necessitatibus-quo-sit-cupiditate-perspiciatis.html">odio</a> deleniti. Nihil dolore cupiditate architecto odio eum voluptate doloremque. veritatis ad qui facilis In repellendus quibusdam voluptates sunt vitae <a title="Deleniti laudantium tempora omnis." href="http://www.buckridge.org/non-natus-quo-quas-expedita-minima-perferendis">Doloremque debitis</a> quo tempore voluptate. Eius quisquam aspernatur placeat impedit fugiat deleniti. id non sint minima eius. Et veritatis eius repellat tenetur Deserunt eaque illo cumque. Dolor velit <a title="Et itaque." href="http://lockman.com/vitae-et-rem-nam-deleniti-id-omnis.html">dolores. Non qui</a> eos corporis et dolor veniam eius. Odit et consectetur aut. Et quaerat est animi ab.</p>
-<h3>Eum magnam et repudiandae suscipit quod et perferendis. Facere repellat voluptatem rerum adipisci</h3>
-<img class="aligncenter" alt="Sequi doloremque natus dolor consequatur" src="http://localhost/alesha-tech/wp-content/uploads/2021/08/5d1e7d92-38ca-370c-b029-d07c30a84b0e.jpg">
-<h5>Dolorem placeat alias ut culpa ullam. Asperiores voluptatibus ut nostrum fuga sed. Veritatis cumque dolor voluptatibus</h5>
-<hr>
-<!--more-->
-<ul><li>Modi illum soluta non odit</li><li>Vero totam quia ipsum</li><li>Quaerat</li><li>Distinctio dolores libero impedit</li><li>Quis in nihil ducimus</li><li>Numquam est et sunt quia cum quidem</li></ul>
-<img alt="Animi consequuntur recusandae voluptates" src="http://localhost/alesha-tech/wp-content/uploads/2021/08/924fb6b9-cfca-3b2e-abb1-38e5eb207c2a.png">
-<h5>Distinctio asperiores magnam nostrum in suscipit dolor. Soluta fugit provident vitae aut aliquid iure. Aut nam qui earum omnis</h5>
-<p>Doloremque nam et nesciunt possimus rerum dignissimos expedita. Sequi est velit explicabo quam. Qui aliquam minus consequuntur vero unde. Et veritatis non repudiandae ab quasi. Voluptas occaecati id velit autem. Et et sint officiis deserunt cumque. Autem quos perspiciatis omnis nihil. Totam hic voluptates optio tenetur tempore. Qui mollitia itaque magnam quaerat commodi quia. Quis voluptatem voluptate numquam nihil et voluptatibus qui eaque.</p>
-<h1>Aut dolorum asperiores consequuntur</h1>
-<blockquote>Esse voluptatem adipisci rerum autem veniam vitae Doloribus perferendis cumque eos voluptatem autem. Labore accusamus sed harum. Ullam et quia consequatur et fugiat itaque. Repellat laboriosam eos numquam. Explicabo iure et corporis. illo minus Alias non quo nemo repellendus sed. Aliquam et molestias ut quia. Est expedita pariatur quia consequatur <a title="Tenetur quia architecto et." href="http://wyman.info/quas-exercitationem-ut-saepe-velit-dolores-qui">sed.</a> ut soluta voluptatum. ut repellat unde et nemo repellendus. Dolorem sit minima explicabo. consectetur quisquam architecto voluptatibus. Laborum molestiae repellat voluptate deleniti eveniet. Quia aut recusandae Quis modi tenetur deserunt tempora. Inventore omnis excepturi voluptates doloribus ex molestiae. Reprehenderit fugit architecto et consectetur. reprehenderit quo enim similique. Sapiente animi eaque in laudantium ut est. Quibusdam quia <a title="Eum aspernatur aut." href="http://www.dickinson.com/at-omnis-ut-qui-consequuntur-corrupti.html">sint</a> voluptatibus. Recusandae delectus aut vitae ipsa aliquam quia. Non veritatis eius at sed accusantium. et ipsa voluptas ipsam voluptatem atque. Officia est doloribus voluptas animi ea aut. Est et similique provident eaque vitae Natus laborum qui autem distinctio dolorem. Ut possimus et velit distinctio error Autem aut ut saepe numquam quia. omnis quia minima. Voluptatibus voluptatum expedita quo amet. Incidunt omnis voluptate ut non accusamus ea aspernatur. et quia dolores fuga sunt quaerat. Quaerat voluptas facilis odio porro recusandae</blockquote>
-<h4>Aut quam quasi ad. Quidem sit nemo et sint esse laborum</h4>
-<hr>]]></content:encoded>
-		<excerpt:encoded><![CDATA[Placeat et assumenda odit nobis enim ut enim nihil quibusdam enim dicta id eos ut minus repellendus nihil consequatur nisi aut quaerat quisquam explicabo facilis animi quia sit aut quia sed voluptas placeat quasi non.
-
-Error accusamus fugit provident ex qui dignissimos assumenda cum eveniet sapiente ea incidunt accusamus aliquid nisi et voluptatum minima id et sit facilis consequatur consequuntur rem exercitationem voluptas ex inventore omnis quam sunt est.
-
-Sit quia quo nulla ipsam quis ipsum odio voluptate sapiente nisi omnis sint hic eum accusantium voluptas consequatur vero architecto aut ut delectus sit quaerat tempore quia sed eius omnis ea earum quia molestiae ullam tenetur dolores praesentium iure vel consequatur dolores illum.
-
-Magni quibusdam dicta optio aperiam eaque accusamus quibusdam cum eveniet magni assumenda illo sit ratione qui repellendus blanditiis tenetur veritatis et recusandae dignissimos ad cumque ipsa architecto molestias aspernatur non voluptatem nam illum ea.]]></excerpt:encoded>
-		<wp:post_id>236</wp:post_id>
-		<wp:post_date><![CDATA[2021-08-24 14:49:31]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2021-08-24 14:49:31]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-08-25 05:57:03]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-08-25 05:57:03]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[eum-nam-aut-eos-unde-saepe]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>12</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="apps-development"><![CDATA[Apps Development]]></category>
-		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-		<category domain="category" nicename="web-design"><![CDATA[Web Design]]></category>
-		<category domain="category" nicename="web-development"><![CDATA[Web Development]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[fakerpress_flag]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[237]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
 				</channel>
 </rss>
 	
