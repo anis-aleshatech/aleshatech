@@ -25,7 +25,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		get_template_part( 'global-templates/custom-hero' ); 
 	} 
 ?>
-<div class="wrapper" id="page-wrapper">
+<div class="wrapper mb-5" id="page-wrapper">
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
 
