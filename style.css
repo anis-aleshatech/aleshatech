@@ -172,7 +172,7 @@ nav.navbar ul > li > ul.sub_menu > li:not(:last-child) {
 	background-position: center;
 	height: 200px;
 	position: relative;
-	border: 3px solid green;
+	/* border: 3px solid green; */
 }
 .hero-section .row {
 	margin: 0;

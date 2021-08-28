@@ -13,7 +13,13 @@ defined( 'ABSPATH' ) || exit;
 get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
-<?php get_template_part( 'global-templates/hero' ); ?>
+<?php if ( is_front_page() && is_home() ) 
+	{
+	 	get_template_part( 'global-templates/hero' );  
+	}else{
+		get_template_part( 'global-templates/custom-hero' ); 
+	} 
+?>
 
 <div class="wrapper" id="author-wrapper">
 

@@ -42,7 +42,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<!-- Your site title as branding in the menu -->
 						<?php
-								$url=get_option_value('logo', );
+								$url=get_option_value('logo');
 							?>
 							<?php if($url){
 								?>

@@ -34,6 +34,14 @@ Redux::set_section(
 				'type'     => 'text',
 				'title'    => esc_html__( 'Email Address', 'alesha-tech' ),
 				'desc'     => esc_html__( 'Write Here Email Address', 'alesha-tech' ),
+			),	
+			array(
+				'id'           => 'banner',
+				'type'         => 'media',
+				'url'          => true,
+				'title'        => esc_html__( 'Banner Image', 'alesha-tech' ),
+				'compiler'     => 'true',
+				'preview_size' => 'medium',
 			),
 				
 		),
