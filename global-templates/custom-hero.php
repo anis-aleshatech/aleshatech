@@ -1,7 +1,12 @@
 <?php
     $src=get_option_value('banner');
-    if(isset($src) && $src['url']!=null ){
-        $banner=$src['url'];
+    if(isset($src)){
+        if( isset($src['url'])){
+            $banner=$src['url'];
+        }else{
+            $banner=get_template_directory_uri().'/assets/images/header_banner.png';
+        }
+      
     }else{
         $banner=get_template_directory_uri().'/assets/images/header_banner.png';
     }

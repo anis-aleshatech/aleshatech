@@ -71,6 +71,14 @@ function aleshatech_register_required_plugins() {
 			'name'        => 'Contact Form',
 			'slug'        => 'contact-form-7',
 		),
+		array(
+			'name'        => 'Demo Content Import',
+			'slug'        => 'one-click-demo-import',
+		),
+		array(
+			'name'        => 'Mail Chimp',
+			'slug'        => 'mailchimp-for-wp',
+		),
 
 	);
 

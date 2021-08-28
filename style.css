@@ -199,3 +199,11 @@ User Avater
 }
 
 
+
+.footer__widget-nav li a {
+    margin-bottom: 0px !important;
+}
+.footer__widget .footer__widget-title {
+ 
+    margin-bottom: 5px !important;
+}

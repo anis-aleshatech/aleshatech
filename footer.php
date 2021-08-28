@@ -31,40 +31,42 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                       </div><!-- /.col-xl-4 -->
                       <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 footer__widget footer__widget-nav">
-                      <div class="footer__widget-content">
-						<?php 
-                   			      if ( is_active_sidebar( "footer-sidebar-2" ) ) {
-                   			     dynamic_sidebar( "footer-sidebar-2" );
-                   			 }
-                   		?>
-                      
-                        </div>
+                            <div class="footer__widget-content">
+                                <h6 class="footer__widget-title"> <?php echo esc_html('Quick Links', 'aleshatech'); ?></h6>
+                                 <div class="footer__widget-content">
+                                          <nav>
+                                            
+                                              <?php 
+                                                  wp_nav_menu(
+                                                    array(
+                                                      'theme_location'  => 'footer_menu',
+                                                      'menu_class'      => 'list-unstyled',
+                                                
+                                                    )
+                                                );
+                                              ?>
+                                          </nav>
+                                  </div><!-- /.footer-widget-content -->
+                                
+                            
+                            </div>
                       </div><!-- /.col-xl-2 -->
                       <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 footer__widget footer__widget-nav">
-                     
-						<div class="footer__widget-content">
-						<?php 
-                   			      if ( is_active_sidebar( "footer-sidebar-3" ) ) {
-                   			     dynamic_sidebar( "footer-sidebar-3" );
-                   			 }
-                   		?>
-                        </div>
-                      </div><!-- /.col-xl-2 -->
-                      <div class="col-sm-12 col-md-6 col-lg-3 col-xl-4 footer__widget footer__widget-newsletter">
-                        <h6 class="footer__widget-title">Newsletter</h6>
-                        <div class="widget__newsletter-form">
-                          <p>Sign up for industry alerts, our latest news, thoughts, and insights from Alesha Tech.</p>
-                          <form >
-                          
-                                <input type="email" class="form-control" placeholder="Your Email Address">
-                                <input type="submit" value="Subscribe">
-                           
-                          </form>
-
-                          
-                          
-                        </div><!-- /.footer-widget-content -->
-                        
+                                  
+                          <div class="footer__widget-content">
+                          <?php 
+                                            if ( is_active_sidebar( "footer-sidebar-3" ) ) {
+                                          dynamic_sidebar( "footer-sidebar-3" );
+                                      }
+                                    ?>
+                                      </div>
+                                    </div><!-- /.col-xl-2 -->
+                                    <div class="col-sm-12 col-md-6 col-lg-3 col-xl-4 footer__widget footer__widget-newsletter">
+                                    <?php 
+                                            if ( is_active_sidebar( "footer-sidebar-4" ) ) {
+                                          dynamic_sidebar( "footer-sidebar-4" );
+                                      }
+                                    ?>
                       </div><!-- /.col-xl-4 -->
                     </div><!-- /.row -->
                   </div><!-- /.container -->

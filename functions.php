@@ -11,6 +11,7 @@ defined( 'ABSPATH' ) || exit;
 
 require_once get_template_directory() ."/inc/tgm/tgm-activation.php";
 require_once get_template_directory() ."/inc/redux/config.php";
+require_once get_template_directory() ."/inc/demo-data/demo.php";
 
 // UnderStrap's includes directory.
 $understrap_inc_dir = 'inc';
@@ -62,22 +63,7 @@ function get_option_value($key, $default=''){
 
 
 
-function atl_page_template_banner() {
-    if ( is_page() ) {
-        if ( current_theme_supports( "custom-header" ) ) {
-            ?>
-<style>
-	.hero-wrap-2 {
-		background-image: url(<?php echo header_image();
-		?>);
-		background-size: cover;
-	}
-</style>
-<?php
-        }
-    }
-}
-add_action( "wp_head", "atl_page_template_banner", 11 );
+
 
 // Add Menu Class li Tag
 function tanem_menu_item_class($classes, $item)
