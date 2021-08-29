@@ -47,7 +47,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						
 						<div class="card-header">
 								
-							<h1><?php echo esc_html__( 'About:', 'understrap' ) . ' ' . esc_html( $curauth->nickname ); ?></h1>
+							<h1><?php echo esc_html__( 'About:', 'aleshatech' ) . ' ' . esc_html( $curauth->nickname ); ?></h1>
 						</div>
 						<div class="card-body">
 							<div class="card-title  user-avatar ">
@@ -61,14 +61,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 									<?php if ( ! empty( $curauth->user_url ) || ! empty( $curauth->user_description ) ) : ?>
 									<dl>
 										<?php if ( ! empty( $curauth->user_url ) ) : ?>
-											<dt><?php esc_html_e( 'Website', 'understrap' ); ?></dt>
+											<dt><?php esc_html_e( 'Website', 'aleshatech' ); ?></dt>
 											<dd>
 												<a href="<?php echo esc_url( $curauth->user_url ); ?>"><?php echo esc_html( $curauth->user_url ); ?></a>
 											</dd>
 										<?php endif; ?>
 
 										<?php if ( ! empty( $curauth->user_description ) ) : ?>
-											<dt><?php esc_html_e( 'Profile', 'understrap' ); ?></dt>
+											<dt><?php esc_html_e( 'Profile', 'aleshatech' ); ?></dt>
 											<dd><?php echo esc_html( $curauth->user_description ); ?></dd>
 										<?php endif; ?>
 									</dl>
@@ -87,7 +87,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					
 				</header><!-- .page-header -->
 				<!-- The Loop -->
-				<h2 class="my-3"><?php echo esc_html__( 'Posts by', 'understrap' ) . ' ' . esc_html( $curauth->nickname ); ?>:</h2>
+				<h2 class="my-3"><?php echo esc_html__( 'Posts by', 'aleshatech' ) . ' ' . esc_html( $curauth->nickname ); ?>:</h2>
 					<?php
 					$i=0;
 					if ( have_posts() ) {
@@ -98,7 +98,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								printf(
 									'<a rel="bookmark" href="%1$s" title="%2$s %3$s">%3$s</a>',
 									esc_url( apply_filters( 'the_permalink', get_permalink( $post ), $post ) ),
-									esc_attr( __( 'Permanent Link:', 'understrap' ) ),
+									esc_attr( __( 'Permanent Link:', 'aleshatech' ) ),
 									get_the_title()
 								);
 								

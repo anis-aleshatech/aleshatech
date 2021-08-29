@@ -44,6 +44,6 @@ if ( ! function_exists( 'understrap_wpcom_styles' ) ) {
 	 * WordPress.com-specific styles
 	 */
 	function understrap_wpcom_styles() {
-		wp_enqueue_style( 'understrap-wpcom', get_template_directory_uri() . '/inc/style-wpcom.css', array(), '20160411' );
+		wp_enqueue_style( 'aleshatech'-wpcom', get_template_directory_uri() . '/inc/style-wpcom.css', array(), '20160411' );
 	}
 }
