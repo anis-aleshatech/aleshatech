@@ -88,7 +88,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-
+<script>
+  AOS.init();
+</script>
 </body>
 
 </html>
