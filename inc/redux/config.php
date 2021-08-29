@@ -343,6 +343,22 @@ Redux::set_section(
 
 require_once get_template_directory()."/inc/redux/sections/blog/blog.php";
 
+//START Blog Fields
+Redux::set_section(
+	$opt_name,
+	array(
+		'title'            => esc_html__( '404', 'aleshatech' ),
+		'id'               => '404',
+		'desc'             => esc_html__( 'Blog Page Settings!', 'aleshatech' ),
+		'customizer_width' => '400px',
+		'icon'             => 'el el-error',
+	)
+);
+
+
+
+require_once get_template_directory()."/inc/redux/sections/404/404.php";
+
 
 /*
  * <--- END SECTIONS

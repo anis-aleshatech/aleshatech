@@ -30,13 +30,22 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<main class="site-main" id="main">
 
 					<section class="error-404 not-found">
+						<?php 
+							$url=get_option_value('image-404');
+							if( $url){
+								$url404= $url['url'] ? $url['url'] : get_template_directory_uri().'/assets/images/404.png';
+							}else{
+								$url404= get_template_directory_uri().'/assets/images/404.png';
+							}
+						
+						?>
 					<div class="page404 text-center">
-							<img src="<?php echo get_template_directory_uri().'/assets/images/404.png';?>" alt="">
+							<img src="<?php echo $url404?>" alt="">
 						</div>
 
 						<header class="page-header text-center py-5">
-
-							<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'understrap' ); ?></h1>
+						
+							<h1 class="page-title"><?php echo  get_option_value('text-404', 'Oops! That page can&rsquo;t be found.'); ?></h1>
 
 						</header><!-- .page-header -->
 						
