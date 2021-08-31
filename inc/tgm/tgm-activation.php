@@ -15,7 +15,7 @@ function aleshatech_register_required_plugins() {
 		array(
 			'name'               => 'Alesha Tech Assets', // The plugin name.
 			'slug'               => 'alesha-assets', // The plugin slug (typically the folder name).
-			'source'             => get_template_directory() . '/inc/plugins/alesha-assets.zip', // The plugin source.
+			'source'             => 'https://github.com/anis-aleshatech/alesha-assets/archive/refs/heads/main.zip', // The plugin source.
 			'required'           => true, // If false, the plugin is only 'recommended' instead of required.
 			'version'            => '', // E.g. 1.0.0. If set, the active plugin must be this version or higher. If the plugin version is higher than the plugin version installed, the user will be notified to update the plugin.
 			'force_activation'   => true, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
