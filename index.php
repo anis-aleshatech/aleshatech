@@ -34,29 +34,40 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 			<!-- Do the left sidebar check and opens the primary div -->
 			<?php get_template_part( 'global-templates/left-sidebar-check' ); ?>
-
+	
 			<main class="site-main" id="main"> 
+				<div class="row">
+					<?php
+						if ( have_posts() ) {
+							// Start the Loop.
+							while ( have_posts() ) {
+								$layout=get_option_value('blog-layout');
 
-				<?php
-				if ( have_posts() ) {
-					// Start the Loop.
-					while ( have_posts() ) {
-						the_post();
+								if(	$layout==3){
+									$blogLayout="col-md-4";
+								}else if($layout==2){
+									$blogLayout="col-md-6";
+								}else{
+									$blogLayout="col-md-12";
+								}
 
-						/*
-						 * Include the Post-Format-specific template for the content.
-						 * If you want to override this in a child theme, then include a file
-						 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-						 */
-						get_template_part( 'loop-templates/content', get_post_format() );
-					}
-				} else {
-					get_template_part( 'loop-templates/content', 'none' );
-				}
-				?>
+								?>
+									
+										<div class="<?php echo $blogLayout; ?>">
+										<?php the_post();?>
 
+								<?php get_template_part( 'loop-templates/content', get_post_format() );?>
+								</div>
+								
+								<?php
+							}
+						} else {
+							get_template_part( 'loop-templates/content', 'none' );
+						}
+						?>
+
+				</div>
 			</main><!-- #main -->
-
 			<!-- The pagination component -->
 			<div class="my-5 pb-5">
 					<?php understrap_pagination(); ?>

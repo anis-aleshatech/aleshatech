@@ -218,7 +218,6 @@ User Avater
 h2.card-title a{
 	color:#393939 !important;
 	text-decoration: none !important;
-	font-size: 3.438rem !important;
 }
 #main .card p{
 	color:#6A6A6A !important;
@@ -261,8 +260,36 @@ ul.pagination li.page-item{
 	}
 }
 
-  
-@media (min-width: 992px) {
+
+
+  /* If the screen size is 601px or more, set the font-size of <div> to 80px */
+
+
+  @media screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1400px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+	#main .entry-title {
+		font-size: 2rem !important;
 	
-	
-  }
+	}
+	#main .entry-title a{
+		text-decoration: none;
+	}
+}
+
+
+  @media screen 
+  and (min-device-width: 100px) 
+  and (max-device-width: 768px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+	#main .entry-title {
+		font-size: 1.5rem !important;
+		
+	}
+	#main .entry-title a{
+		text-decoration: none;
+	}
+}
+
+

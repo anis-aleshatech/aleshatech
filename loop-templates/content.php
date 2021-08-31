@@ -20,8 +20,8 @@ defined( 'ABSPATH' ) || exit;
 
 				<?php
 				the_title(
-					sprintf( '<h2 class="entry-title card-title text-dark"><a href="%s" rel="bookmark" class="text-muted">', esc_url( get_permalink() ) ),
-					'</a></h2>'
+					sprintf( '<h1 class="entry-title card-title text-dark"><a href="%s" rel="bookmark" class="text-muted">', esc_url( get_permalink() ) ),
+					'</a></h1>'
 				);
 				?>
 
