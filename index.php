@@ -53,7 +53,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 								?>
 									
-										<div class="<?php echo $blogLayout; ?>">
+										<div class="<?php echo $blogLayout; ?> mt-2">
 										<?php the_post();?>
 
 								<?php get_template_part( 'loop-templates/content', get_post_format() );?>

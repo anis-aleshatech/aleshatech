@@ -11122,6 +11122,18 @@ textarea.form-control-lg {
   font-family: "Roboto", sans-serif;
 }
 
+.selector {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-gap: 1.5em;
+  -moz-column-gap: 1.5em;
+  column-gap: 1.5em;
+  -webkit-column-rule: 2px solid hotpink;
+  -moz-column-rule: 2px solid hotpink;
+  column-rule: 2px solid hotpink;
+}
+
 .btn-rounded {
   position: relative;
   padding: 0.8375rem 4.375rem 0.8375rem 1.25rem;
@@ -11185,7 +11197,7 @@ textarea.form-control-lg {
     transform: translateY(-10px);
   }
 }
-.animated {
+.animated-topup {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
@@ -11207,84 +11219,178 @@ textarea.form-control-lg {
 
 @keyframes animationFramesOne {
   0% {
-    transform: translate(0px, 0px) rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
   }
   20% {
-    transform: translate(73px, -1px) rotate(36deg);
+    -webkit-transform: rotate(36deg);
+    -ms-transform: rotate(36deg);
+    transform: rotate(36deg);
+    -webkit-transform: translate(73px, -1px);
+    -ms-transform: translate(73px, -1px);
+    transform: translate(73px, -1px);
   }
   40% {
-    transform: translate(20px, 60px) rotate(72deg);
+    -webkit-transform: rotate(72deg);
+    -ms-transform: rotate(72deg);
+    transform: rotate(72deg);
+    -webkit-transform: translate(20px, 60px);
+    -ms-transform: translate(20px, 60px);
+    transform: translate(20px, 60px);
   }
   60% {
-    transform: translate(40px, 20px) rotate(108deg);
+    -webkit-transform: rotate(108deg);
+    -ms-transform: rotate(108deg);
+    transform: rotate(108deg);
+    -webkit-transform: translate(40px, 20px);
+    -ms-transform: translate(40px, 20px);
+    transform: translate(40px, 20px);
   }
   80% {
-    transform: translate(-40px, 72px) rotate(144deg);
+    -webkit-transform: rotate(144deg);
+    -ms-transform: rotate(144deg);
+    transform: rotate(144deg);
+    -webkit-transform: translate(-40px, -72px);
+    -ms-transform: translate(-40px, -72px);
+    transform: translate(-40px, -72px);
   }
   100% {
-    transform: translate(0px, 0px) rotate(0deg);
-  }
-}
-@-webkit-keyframes animationFramesOne {
-  0% {
-    -webkit-transform: translate(0px, 0px) rotate(0deg);
-  }
-  20% {
-    -webkit-transform: translate(73px, -1px) rotate(36deg);
-  }
-  40% {
-    -webkit-transform: translate(141px, 72px) rotate(72deg);
-  }
-  60% {
-    -webkit-transform: translate(83px, 122px) rotate(108deg);
-  }
-  80% {
-    -webkit-transform: translate(-40px, 72px) rotate(144deg);
-  }
-  100% {
-    -webkit-transform: translate(0px, 0px) rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
   }
 }
 @keyframes animationFramesTwo {
   0% {
-    transform: translate(0px, 10px) rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform: translate(0px, 10px);
+    -ms-transform: translate(0px, 10px);
+    transform: translate(0px, 10px);
   }
   20% {
-    transform: translate(-30px, -1px) rotate(36deg);
+    -webkit-transform: rotate(36deg);
+    -ms-transform: rotate(36deg);
+    transform: rotate(36deg);
+    -webkit-transform: translate(10px, -1px);
+    -ms-transform: translate(10px, -1px);
+    transform: translate(10px, -1px);
   }
   40% {
-    transform: translate(40px, 100px) rotate(72deg);
+    -webkit-transform: rotate(72deg);
+    -ms-transform: rotate(72deg);
+    transform: rotate(72deg);
+    -webkit-transform: translate(40px, 100px);
+    -ms-transform: translate(40px, 100px);
+    transform: translate(40px, 100px);
   }
   60% {
-    transform: translate(90px, 122px) rotate(108deg);
+    -webkit-transform: rotate(108deg);
+    -ms-transform: rotate(108deg);
+    transform: rotate(108deg);
+    -webkit-transform: translate(90px, 122px);
+    -ms-transform: translate(90px, 122px);
+    transform: translate(90px, 122px);
   }
   80% {
-    transform: translate(-40px, 72px) rotate(144deg);
+    -webkit-transform: rotate(144deg);
+    -ms-transform: rotate(144deg);
+    transform: rotate(144deg);
+    -webkit-transform: translate(-40px, 72px);
+    -ms-transform: translate(-40px, 72px);
+    transform: translate(-40px, 72px);
   }
   100% {
-    transform: translate(30px, 0px) rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform: translate(30px, 0px);
+    -ms-transform: translate(30px, 0px);
+    transform: translate(30px, 0px);
   }
 }
-@-webkit-keyframes animationFramesTwo {
+@keyframes animationFramesThree {
   0% {
-    -webkit-transform: translate(0px, 0px) rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
   }
   20% {
-    -webkit-transform: translate(30px, -1px) rotate(36deg);
+    -webkit-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+    -webkit-transform: translate(0px, -200px);
+    -ms-transform: translate(0px, -200px);
+    transform: translate(0px, -200px);
   }
   40% {
-    -webkit-transform: translate(100px, 72px) rotate(72deg);
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform: translate(0px, -400px);
+    -ms-transform: translate(0px, -400px);
+    transform: translate(0px, -400px);
   }
   60% {
-    -webkit-transform: translate(90px, 122px) rotate(108deg);
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform: translate(300px, 0px);
+    -ms-transform: translate(300px, 0px);
+    transform: translate(300px, 0px);
   }
   80% {
-    -webkit-transform: translate(-40px, 72px) rotate(144deg);
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform: translate(100px, 0px);
+    -ms-transform: translate(100px, 0px);
+    transform: translate(100px, 0px);
   }
   100% {
-    -webkit-transform: translate(0px, 0px) rotate(0deg);
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-transform: translate(30px, 60px);
+    -ms-transform: translate(30px, 60px);
+    transform: translate(30px, 60px);
   }
 }
+.banner-shape-1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 20;
+  animation: animationFramesOne linear 15s infinite;
+}
+
+.banner-shape-2 {
+  position: absolute;
+  left: 800px;
+  top: 0px;
+  z-index: 20;
+  animation: animationFramesTwo linear 35s infinite;
+}
+
+.banner-shape-3 {
+  position: relative;
+  left: 10px;
+  top: 0px;
+  z-index: 20;
+  animation: animationFramesThree linear 40s infinite;
+}
+
 @keyframes rotated {
   0% {
     transform: rotate(-360deg);
@@ -11347,21 +11453,21 @@ textarea.form-control-lg {
 .heading-line::before {
   content: "";
   width: 10rem;
-  height: 0.1rem;
+  height: 0.1px;
   display: block;
   margin: 0 auto;
   background-color: #FF7133;
 }
 
 .heading-line::after {
-  content: "";
+  content: "••••••••••";
   width: 2rem;
-  padding-top: 0.5rem;
-  height: 0.2rem;
+  padding-top: 0rem;
+  height: 0.5px;
   display: block;
   margin: 0 auto;
   margin-bottom: 1rem;
-  background-color: #FF7133;
+  color: #FF7133;
 }
 
 .display-3 {
@@ -11603,40 +11709,38 @@ textarea.form-control-lg {
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
-.breadcrumbs {
+.banner-intro {
   padding: 0;
 }
-
-.breadcrumbs .breadcrumb-hero {
+.banner-intro .banner-content {
+  padding: 80px 0px;
+}
+.banner-intro .banner-hero {
   text-align: center;
   background: linear-gradient(90deg, #2f0c83 0%, #2a158b 22%, #1e2ea0 61%, #0b57c4 100%);
   padding: 20px 0;
   color: #fff;
+  margin-top: 60px;
 }
-
-.breadcrumbs .breadcrumb-hero h2 {
+.banner-intro .banner-hero h2 {
   font-size: 32px;
   font-weight: 500;
 }
-
-.breadcrumbs .breadcrumb-hero p {
+.banner-intro .banner-hero p {
   font-size: 14px;
   margin-bottom: 0;
 }
-
-.breadcrumbs ol {
+.banner-intro ol {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
   margin: 30px 0;
 }
-
-.breadcrumbs ol li + li {
+.banner-intro ol li + li {
   padding-left: 10px;
 }
-
-.breadcrumbs ol li + li::before {
+.banner-intro ol li + li::before {
   display: inline-block;
   padding-right: 10px;
   color: #565e49;
@@ -11654,6 +11758,7 @@ textarea.form-control-lg {
   padding: 30px;
   margin-bottom: 60px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  border-bottom: 3px solid #FF7133;
 }
 
 .blog .entry .entry-img {
@@ -11672,10 +11777,11 @@ textarea.form-control-lg {
 .blog .entry .entry-title a {
   color: #3c4133;
   transition: 0.3s;
+  text-decoration: none;
 }
 
 .blog .entry .entry-title a:hover {
-  color: orange;
+  color: #FF7133;
 }
 
 .blog .entry .entry-meta {
@@ -11726,6 +11832,7 @@ textarea.form-control-lg {
   transition: 0.3s;
   font-size: 14px;
   border-radius: 4px;
+  text-decoration: none;
 }
 
 .blog .entry .entry-content .read-more a:hover {
@@ -11784,7 +11891,7 @@ textarea.form-control-lg {
 }
 
 .blog .entry .entry-footer a:hover {
-  color: orange;
+  color: #FF7133;
 }
 
 .blog .entry .entry-footer .cats {
@@ -11890,15 +11997,17 @@ textarea.form-control-lg {
   font-weight: bold;
   color: #444444;
   transition: 0.3s;
+  text-decoration: none;
 }
 
 .blog .blog-comments .comment h5 a:hover {
-  color: orange;
+  color: #FF7133;
 }
 
 .blog .blog-comments .comment h5 .reply {
   padding-left: 10px;
   color: #3c4133;
+  text-decoration: none;
 }
 
 .blog .blog-comments .comment h5 .reply i {
@@ -11939,7 +12048,7 @@ textarea.form-control-lg {
 
 .blog .blog-comments .reply-form input:focus {
   box-shadow: none;
-  border-color: #c0da91;
+  border-color: #FF7133;
 }
 
 .blog .blog-comments .reply-form textarea {
@@ -11950,7 +12059,7 @@ textarea.form-control-lg {
 
 .blog .blog-comments .reply-form textarea:focus {
   box-shadow: none;
-  border-color: #c0da91;
+  border-color: #FF7133;
 }
 
 .blog .blog-comments .reply-form .form-group {
@@ -11961,11 +12070,12 @@ textarea.form-control-lg {
   border-radius: 4px;
   padding: 10px 20px;
   border: 0;
-  background-color: #3c4133;
+  background: linear-gradient(90deg, #ff3834 0%, #ff4133 22%, #ff5a33 61%, #ff7133 100%);
+  color: white;
 }
 
 .blog .blog-comments .reply-form .btn-primary:hover {
-  background-color: #494f3e;
+  background-color: #ffffff;
 }
 
 .blog .blog-pagination {
@@ -11993,7 +12103,7 @@ textarea.form-control-lg {
 }
 
 .blog .blog-pagination li.active, .blog .blog-pagination li:hover {
-  background: orange;
+  background: #FF7133;
 }
 
 .blog .blog-pagination li.active a, .blog .blog-pagination li:hover a {
@@ -12073,7 +12183,7 @@ textarea.form-control-lg {
 }
 
 .blog .sidebar .categories ul a:hover {
-  color: orange;
+  color: #FF7133;
 }
 
 .blog .sidebar .categories ul a span {
@@ -12103,7 +12213,7 @@ textarea.form-control-lg {
 }
 
 .blog .sidebar .recent-posts h4 a:hover {
-  color: #94c045;
+  color: #FF7133;
 }
 
 .blog .sidebar .recent-posts time {
@@ -12139,8 +12249,8 @@ textarea.form-control-lg {
 
 .blog .sidebar .tags ul a:hover {
   color: #fff;
-  border: 1px solid #94c045;
-  background: #94c045;
+  border: 1px solid #FF7133;
+  background: #FF7133;
 }
 
 .blog .sidebar .tags ul a span {
@@ -12158,6 +12268,8 @@ textarea.form-control-lg {
   width: 100%;
   height: 100%;
   padding-bottom: 6rem;
+  position: relative;
+  overflow: hidden;
 }
 
 .intros .video-box {
@@ -12489,20 +12601,6 @@ textarea.form-control-lg {
 .counter__title {
   text-align: center;
   margin-bottom: 1.2rem;
-}
-.counter .banner-shape-1 {
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 20;
-  animation: animationFramesOne linear 15s infinite;
-}
-.counter .banner-shape-2 {
-  position: absolute;
-  left: 200;
-  top: 0px;
-  z-index: 20;
-  animation: animationFramesTwo linear 35s infinite;
 }
 
 /*-------------------------
@@ -12872,7 +12970,7 @@ textarea.form-control-lg {
 }
 
 .portfolio {
-  padding: 4rem 0;
+  padding: 4rem 0 10rem;
 }
 .portfolio button {
   text-transform: capitalize;
@@ -13047,9 +13145,9 @@ textarea.form-control-lg {
   background: linear-gradient(90deg, #ff3834 0%, #ff4133 22%, #ff5a33 61%, #ff7133 100%);
   height: auto;
 }
-.footer_connect .container .footer_connect_details img {
-  width: 50px;
-  padding-right: 10px;
+.footer_connect .container .footer_connect_details i {
+  font-size: 2.5rem;
+  padding-right: 15px;
 }
 @media (max-width: 575.98px) {
   .footer_connect .container .footer_connect_details span {
