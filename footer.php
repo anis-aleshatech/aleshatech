@@ -61,7 +61,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                                     ?>
                                       </div>
                                     </div><!-- /.col-xl-2 -->
-                                    <div class="col-sm-12 col-md-6 col-lg-3 col-xl-4 footer__widget footer__widget-newsletter">
+                                    <div class="col-sm-12 col-md-6 col-lg-3 col-xl-4 footer__widget footer__widget-newsletter widget__newsletter-form">
                                     <?php 
                                             if ( is_active_sidebar( "footer-sidebar-4" ) ) {
                                           dynamic_sidebar( "footer-sidebar-4" );
