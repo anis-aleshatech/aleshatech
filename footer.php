@@ -88,6 +88,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
+<!-- BACK TO TOP BUTTON  -->
+    <a href="#" class="shadow  rounded-circle back-to-top">
+                    <i class="fas fa-chevron-up"></i>
+    </a>
+
 <script>
   AOS.init();
 </script>
