@@ -14,12 +14,12 @@ function aleshatech_register_required_plugins() {
 		// This is an example of how to include a plugin bundled with a theme.
 		array(
 			'name'               => 'Alesha Tech Assets', // The plugin name.
-			'slug'               => 'alesha-assets', // The plugin slug (typically the folder name).
-			'source'             => 'https://github.com/anis-aleshatech/alesha-assets/archive/refs/heads/main.zip', // The plugin source.
+			'slug'               => 'atl-extension', // The plugin slug (typically the folder name).
+			'source'             => 'https://github.com/anis-aleshatech/atl-extension/archive/refs/heads/main.zip', // The plugin source.
 			'required'           => true, // If false, the plugin is only 'recommended' instead of required.
 			'version'            => '', // E.g. 1.0.0. If set, the active plugin must be this version or higher. If the plugin version is higher than the plugin version installed, the user will be notified to update the plugin.
-			'force_activation'   => true, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
-			'force_deactivation' => true, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins.
+			'force_activation'   => false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
+			'force_deactivation' => false, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins.
 			'external_url'       => '', // If set, overrides default API URL and points to an external URL.
 			'is_callable'        => '', // If set, this callable will be be checked for availability to determine if a plugin is active.
 		),
@@ -27,7 +27,7 @@ function aleshatech_register_required_plugins() {
 		array(
 			'name'               => 'Revulation Slider', // The plugin name.
 			'slug'               => 'revslider', // The plugin slug (typically the folder name).
-			'source'             => get_template_directory() . '/inc/plugins/revslider.zip', // The plugin source.
+			'source'             => get_template_directory() .'/inc/plugins/revslider.zip', // The plugin source.
 			'required'           => true, // If false, the plugin is only 'recommended' instead of required.
 			'version'            => '', // E.g. 1.0.0. If set, the active plugin must be this version or higher. If the plugin version is higher than the plugin version installed, the user will be notified to update the plugin.
 			'force_activation'   => false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
@@ -54,8 +54,8 @@ function aleshatech_register_required_plugins() {
 		array(
 			'name'        => 'Elementor',
 			'slug'        => 'elementor',
-			'force_activation'   => true, 
-			'required'     => true,
+			'force_activation'   => false, 
+			'required'     => false,
 		),
 		array(
 			'name'        => 'Contact Form',
