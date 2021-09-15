@@ -42,7 +42,7 @@ function aleshatech_register_required_plugins() {
 		array(
 			'name'        => 'Redux Framework',
 			'slug'        => 'redux-framework',
-			'force_activation'   => true, 
+			'force_activation'   => false, 
 			'required'     => true,
 		),
 		
