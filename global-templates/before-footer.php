@@ -9,7 +9,7 @@
                                                 <p>What kind of help do you need today?</p>
                                         </div>
                                         <div class="col-6 col-md-4 d-flex justify-content-center align-items-center ">
-                                        <i class="fa fa-phone-square-alt"></i>
+                                        <i class="fas fa-phone-square-alt"></i>
                                                 <div >
                                                         <span>Phone Number</span><br>
                                                         <span><?php echo esc_html( get_option_value('mobile', '017018019016') )?></span>

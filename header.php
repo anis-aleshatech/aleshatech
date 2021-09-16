@@ -1,15 +1,5 @@
 <?php
-/**
- * The header for our theme
- *
- * Displays all of the <head> section and everything up till <div id="content">
- *
- * @package UnderStrap
- */
-
-// Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
-
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 <!DOCTYPE html>
