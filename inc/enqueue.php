@@ -31,7 +31,7 @@ if ( ! function_exists( 'understrap_scripts' ) ) {
 
 		$js_version = $theme_version . '.' . filemtime( get_template_directory() . '/js/theme.min.js' );
 		wp_enqueue_script( 'aleshatech-scripts', get_template_directory_uri() . '/js/theme.min.js', array(), $js_version, true );
-		wp_enqueue_script('glightbox-js',get_theme_file_uri('/assets/js/glightbox.min.js'),['jquery'],$css_version,true);   
+		wp_enqueue_script('glightbox-js',get_theme_file_uri('/assets/vendors/glightbox/js/glightbox.min.js'),['jquery'],$css_version,true);   
 		wp_enqueue_script('bootstrap-js',get_theme_file_uri('/assets/js/bootstrap.bundle.js'),['jquery'],$css_version,true);   
 		wp_enqueue_script('bootnavbar-js',get_theme_file_uri('/assets/js/bootnavbar.js'),['jquery'],$css_version,true);   
 		wp_enqueue_script('all-js',get_theme_file_uri('/assets/js/all.js'),['jquery'],$css_version,true);   
